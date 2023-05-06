@@ -49,7 +49,7 @@ div>button{
 }
 
 h2{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin-left: 40px;
     font-size: 32px;
 }
@@ -68,16 +68,27 @@ section{
 .fig_1>img{
     width: 160px;
     height: 138px;
+    border-radius: 10px;
 }
 
 .fig_1>figcaption{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .fig_1>footer{
     font-size: 13px;
     color: #979797;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: #5243C2;
+    background-color: #F6F4FF;
+    font-size: 15px;
 }
 
 #section_2>div{
@@ -88,10 +99,44 @@ section{
 .fig_2>img{
     width: 260px;
     height: 323px;
+    border-radius: 10px;
 }
 
-img{
-    border-radius: 10px;
+.fig_2>figcaption{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.fig_2>footer{
+    color: #979797;
+    margin-top: 10px;
+}
+
+.fig_3{
+    min-width: 300px;
+    width: 700px;
+}
+
+.fig_3>img{
+    width: 260px;
+    height: 323px;
+    border-radius: 20px;
+    float: left;
+}
+
+.fig_3>div{
+    float: right;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.fig_3>div>figcaption{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.fig_3>div>footer{
+    margin-top: 80px;
 }
 
 /* @media screen and (max-width:800px){
