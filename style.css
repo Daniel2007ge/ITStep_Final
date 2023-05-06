@@ -139,6 +139,12 @@ button{
     margin-top: 80px;
 }
 
+.fig_4>img{
+    width: 260px;
+    height: 323px;
+    border-radius: 10px;
+}
+
 /* @media screen and (max-width:800px){
     a{
         display: none;
