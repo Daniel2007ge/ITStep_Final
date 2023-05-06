@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    height: 760px;
+    height: 700px;
     background-image: url(https://media.tegna-media.com/assets/WTHR/images/36954d83-ea36-439c-8e02-b1991149f353/36954d83-ea36-439c-8e02-b1991149f353_750x422.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ div>button{
 
 h2{
     padding-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
     font-size: 32px;
 }
 
@@ -60,15 +60,14 @@ section{
     justify-content: center;
 }
 
-section>div{
+#section_1>div{
     min-width: 160px;
     width: auto;
 }
 
-img{
+.img_1{
     width: 160px;
     height: 138px;
-    border-radius: 10px;
 }
 
 figcaption{
@@ -79,6 +78,20 @@ figcaption{
 figure>footer{
     font-size: 13px;
     color: #979797;
+}
+
+#section_2>div{
+    min-width: 260px;
+    width: auto;
+}
+
+.img_2{
+    width: 260px;
+    height: 323px;
+}
+
+img{
+    border-radius: 10px;
 }
 
 /* @media screen and (max-width:800px){
