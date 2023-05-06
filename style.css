@@ -1,5 +1,17 @@
 body{
     margin: 0px;
+    font-family: "Malgun Gothic";
+}
+
+header{
+    height: 760px;
+    background-image: url(https://media.tegna-media.com/assets/WTHR/images/36954d83-ea36-439c-8e02-b1991149f353/36954d83-ea36-439c-8e02-b1991149f353_750x422.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 #logo{
@@ -11,18 +23,18 @@ body{
     float: left;
 }
 
-a{
-    padding: 20px 20px;
-    font-size: 15px;
+nav{
+    display: flex;
+    justify-content: center;
 }
 
-header{
-    height: 760px;
-    background-image: url(https://media.tegna-media.com/assets/WTHR/images/36954d83-ea36-439c-8e02-b1991149f353/36954d83-ea36-439c-8e02-b1991149f353_750x422.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+a{
+    padding: 20px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    min-width: 100px;
+    width: 140px;
+    color: gray;
 }
 
 div>button{
@@ -33,6 +45,13 @@ div>button{
     border: none;
     border-radius: 5px;
     margin-top: 20px;
+    font-size: 16px;
+}
+
+h2{
+    padding-bottom: 50px;
+    margin-left: 20px;
+    font-size: 32px;
 }
 
 section{
@@ -41,9 +60,9 @@ section{
     justify-content: center;
 }
 
-figure{
-    width: 200px;
-    padding: 0%;
+section>div{
+    min-width: 160px;
+    width: auto;
 }
 
 img{
@@ -57,7 +76,7 @@ figcaption{
     font-weight: 500;
 }
 
-footer{
+figure>footer{
     font-size: 13px;
     color: #979797;
 }
