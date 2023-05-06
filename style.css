@@ -65,17 +65,17 @@ section{
     width: auto;
 }
 
-.img_1{
+.fig_1>img{
     width: 160px;
     height: 138px;
 }
 
-figcaption{
+.fig_1>figcaption{
     font-size: 16px;
     font-weight: 500;
 }
 
-figure>footer{
+.fig_1>footer{
     font-size: 13px;
     color: #979797;
 }
@@ -85,7 +85,7 @@ figure>footer{
     width: auto;
 }
 
-.img_2{
+.fig_2>img{
     width: 260px;
     height: 323px;
 }
