@@ -8,44 +8,36 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="font-size: 35px;">Create an account</h1><br>
-    <h2 style="font-size: 27px;">If you already have an account please login</h2>
     <div>
-        <button onclick="func1()">Log in</button>
-        <button onclick="func2()">Sign up</button>
+        <h1 style="font-size: 35px;">Create an account</h1><br>
+        <h2 style="font-size: 27px;">If you already have an account please login</h2>
+    
+        <div>
+            <button onclick="func1()">Log in</button>
+            <button onclick="func2()">Sign up</button>
+        </div>
     </div>
 
-    <div>
-        <form action="" method="post">
-            <input type="text" placeholder="Name"><br><br>
-            <input type="password" placeholder="Password"><br>
-            <button>Log in</button>
-        </form>
-    </div><br>
-    <div>
-        <form action="" method="post">
-            <input type="text" placeholder="Name"><br><br>
-            <input type="email" placeholder="Email"><br><br>
-            <input type="password" placeholder="Password"><br><br>
+    <form action="" method="post">
+        <input type="text" placeholder="Name"><br><br>
+        <input type="password" placeholder="Password"><br>
+        <button>Log in</button>
+    </form><br>
 
-            <div>
-                <label for="roles">Choose your role</label>
-                <select name="role">
-                    <option value="User">User</option>
-                    <option value="Business clien">Business client</option>
-                </select>
-            </div>
-            <button>Sign up</button>
-        </form>
-    </div>
-    <script>
-        function func1() {
-            console.log("function1")
-        }
+    <form action="" method="post">
+        <input type="text" placeholder="Name"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <input type="password" placeholder="Password"><br><br>
+        <div>
+            <label for="roles">Choose your role</label>
+            <select name="role">
+                <option value="User">User</option>
+                <option value="Business clien">Business client</option>
+            </select>
+        </div>
+        <button>Sign up</button>
+    </form>
 
-        function func2() {
-            console.log("function2")
-        }
-    </script>
+    <script src="registration.js"></script>
 </body>
 </html>
