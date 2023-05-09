@@ -37,6 +37,23 @@ a{
     color: gray;
 }
 
+#join{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    height: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    transition: all 0.5s ease;
+}
+
+#join:hover{
+    border-radius: 0px;
+    box-shadow: 0 0 15px white inset;
+    transition: all 0.5s ease;
+}
+
 #btn_1{
     width: 215px;
     height: 45px;
