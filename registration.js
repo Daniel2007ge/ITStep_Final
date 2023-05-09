@@ -21,15 +21,15 @@ function func1(input) {
     input.nextElementSibling.style = "opacity: 1"
 }
 
-let x = 0
-function func3(img) {
-    if(x == 0){
+let x = false
+function func2(img) {
+    if(x == false){
         img.previousElementSibling.type = "text"
         img.src = "images/eye1.png"
-        x = 1
+        x = true
     }else{
         img.previousElementSibling.type = "password"
         img.src = "images/eye2.png"
-        x = 0
+        x = false
     }
 }
