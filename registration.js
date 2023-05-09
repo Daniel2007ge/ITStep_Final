@@ -22,7 +22,7 @@ function func1(input) {
 }
 
 let x = 0
-function func2(img) {
+function func3(img) {
     if(x == 0){
         img.previousElementSibling.type = "text"
         img.src = "images/eye1.png"
