@@ -1,0 +1,105 @@
+body{
+    font-family: "Malgun Gothic";
+    text-align: center;
+    padding-top: 70px;
+}
+
+h1, h2{
+    margin: 0px;
+    line-height: 90%;
+}
+
+div{
+    min-width: 70px;
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+button{
+    height: 50px;
+    width: 130px;
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: #7B61FF;
+    margin: 0px 20px;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    border: 1px solid #7B61FF;
+    border-radius: 0px;
+    color: #7B61FF;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+form{
+    display: none;
+    /* width: 400px; */
+    width: 30vw;
+    height: auto;
+    padding-top: 50px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #c8c8c8;
+}
+
+input{
+    height: 40px;
+    width: 22vw;
+    padding-left: 20px;
+    margin: auto;
+    border: 1px solid #7B61FF;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #7B61FF;
+}
+
+input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+form>button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form>div{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+}
+
+label{
+    font-size: 17px;
+    color: #757575;
+    float: left;
+    margin-left: 45px;
+}
+
+select{
+    width: 120px;
+    margin-left: 70px;
+    border: none;    
+    background-color: #f0f0f0;
+    color: #7B61FF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.eye{
+    position: absolute;    
+    width: 25px;
+    margin-top: 10px;
+    margin-left: -40px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
