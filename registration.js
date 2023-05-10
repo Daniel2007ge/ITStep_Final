@@ -50,6 +50,6 @@ $("#login").click(function () {
                 // }
             }
         }
-        // window.open("index3.html")
+        window.open("ErorPage.html")
     })
 })
