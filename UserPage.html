@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="home.css">
     <title>2rism</title>
 </head>
@@ -18,6 +19,7 @@
             <a href="">Destinations</a>
             <a href="">Activities</a>
             <a href="">Contact</a>
+            <div id="User"></div>
         </nav>
         <div style="width: 100%; margin: 90px auto; text-align: center;">
             <h1 style="color: white; margin-bottom: 5px; font-size: 40px">Discover the most engaging places</h1>            
@@ -319,10 +321,6 @@
             </button>
         </div>
     </footer>
-    
-    <script>
-        let obj = JSON.parse(localStorage.getItem("user"))
-        console.log(obj)
-    </script>
+    <script src="UserPage.js"></script>
 </body>
 </html>

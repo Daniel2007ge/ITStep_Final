@@ -270,6 +270,18 @@ span{
     margin-top: 3px;
 }
 
+#User{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    line-height: 55px;
+    margin-top: 5px;
+    box-shadow: 0 0 15px white inset;
+}
+
 /* @media screen and (max-width:800px){
     a{
         display: none;
