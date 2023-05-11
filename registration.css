@@ -78,6 +78,23 @@ form>div{
     margin: 0px;
 }
 
+label{
+    font-size: 17px;
+    color: #757575;
+    float: left;
+    margin-left: 45px;
+}
+
+select{
+    width: 120px;
+    margin-left: 70px;
+    border: none;    
+    background-color: #f0f0f0;
+    color: #7B61FF;
+    border-radius: 10px;
+    text-align: center;
+}
+
 .eye{
     position: absolute;    
     width: 25px;

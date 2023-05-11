@@ -1,11 +1,3 @@
-let Users = [
-    {name:"Gabriel", email:"Gabriel@gmail.com", password:"password1"},
-    {name:"Emma", email:"Emma@gmail.com", password:"password2"},
-    {name:"Rose", email:"Rose@gmail.com", password:"password3"},
-    {name:"Leo", email:"Leo@gmail.com", password:"password4"},
-    {name:"Arthur", email:"Arthur@gmail.com", password:"password5"},
-]
-
 $(document).ready
 (
     $("form").slideUp(0),
@@ -43,37 +35,41 @@ function func2(img) {
 }
 
 $("#login").click(function () {
-    let input1 = $($("input")[0]).val()
-    let input2 = $($("input")[1]).val()
-    let check = false
-    for (let index = 0; index < Users.length; index++) {
-        if((input1 == Users[index].name) && (input2 == Users[index].password)){
-            check = true
-            localStorage.setItem("user", JSON.stringify(Users[index]))
-            window.open("UserPage.html")
-        }}
-    if(!check){
-        window.open("ErrorPage.html")
-    }
+    $.get("data.js",
+    function () {
+        let arr = Users
+        let input1 = $("input")[0]
+        let input2 = $("input")[1]
+        for (let index = 0; index < arr.length; index++) {
+            if((input1.value==arr[index].name) && (input2.value==arr[index].password)){
+                localStorage.setItem("user", JSON.stringify(arr[index]))
+                window.open("UserPage.html")
+            }
+        }
+        window.open("ErorPage.html")
+    })
 })
 
 $("#signup").click(function () {
-    let inputName = $($("input")[2]).val()
-    let inputEmail = $($("input")[3]).val()
-    let inputPassword = $($("input")[4]).val()
-    let check2 = false
-
-    for (let index = 0; index < Users.length; index++) {
-        if ((inputName == Users[index].name) && (inputEmail == Users[index].email)) {
-            alert("Account with that kind of name or email is already existed")
-            check2 = true
-        }
-    }
-
-    if (!check2) {
-        Users.push({name: inputName, email: inputEmail, password: inputPassword})
-        localStorage.setItem("user", JSON.stringify({name: inputName, email: inputEmail, password:inputPassword}))
-        console.log(Users)
-        window.open("UserPage.html")
-    }
-})
+    let inputName = $("input")[2].value
+    let inputEmail = $("input")[3].value
+    let inputPassword = $("input")[4].value
+    let Role = document.getElementsByTagName("select")[0].value
+    $.get("data.js",
+        function () {            
+            if ((inputName == "") && (inputEmail == "") && (inputPassword == "")) {
+                alert("fill the gaps")
+            }else {
+                Users.forEach(element => {
+                    if ((inputName == element.name) && (inputEmail == element.email)) {
+                        alert("Account with that kind of name or email is already existed")
+                    }else {
+                        Users.push({"name":inputName,"role":Role,"email":inputEmail,"password":inputPassword})
+                        localStorage.setItem("user" + (Users.length + 1), JSON.stringify({"name":inputName,"role":Role,"email":inputEmail,"password":inputPassword}))
+                        console.log(Users)
+                    } 
+                });
+            }
+        },
+    );
+});
