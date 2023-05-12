@@ -50,9 +50,22 @@ $("#login").click(function () {
         if((input1 == Users[index].name) && (input2 == Users[index].password)){
             check = true
             localStorage.setItem("user", JSON.stringify(Users[index]))
+            $("span").html("")
             window.open("UserPage.html")
-        }}
+        }
+        if(input1 == ""){
+            check = true
+            $($("span")[0]).html("Your name is required")
+            localStorage.removeItem("user")
+        }
+        if(input2 == "") {
+            check = true
+            $($("span")[1]).html("Your name is required")
+            localStorage.removeItem("user")
+        }
+    }
     if(!check){
+        $("span").html("")
         window.open("ErrorPage.html")
     }
 })
@@ -65,15 +78,31 @@ $("#signup").click(function () {
 
     for (let index = 0; index < Users.length; index++) {
         if ((inputName == Users[index].name) && (inputEmail == Users[index].email)) {
+            // $($("span")[0]).append("Account with that kind of name or email is already existed")
             alert("Account with that kind of name or email is already existed")
             check2 = true
+        }
+        if (inputName == "") {
+            check2 = true
+            $($("span")[2]).html("Your name is required")
+            localStorage.removeItem("user")
+        }
+        if (inputEmail == "") {
+            check2 = true
+            $($("span")[3]).html("Your email is required")
+            localStorage.removeItem("user")
+        }
+        if(inputPassword == ""){
+            check2 = true
+            $($("span")[4]).html("Your password is required")
+            localStorage.removeItem("user")
         }
     }
 
     if (!check2) {
         Users.push({name: inputName, email: inputEmail, password: inputPassword})
         localStorage.setItem("user", JSON.stringify({name: inputName, email: inputEmail, password:inputPassword}))
-        console.log(Users)
+        $("span").html("")
         window.open("UserPage.html")
     }
 })

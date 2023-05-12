@@ -23,8 +23,12 @@ button{
     border-radius: 10px;
     color: white;
     background-color: #7B61FF;
-    margin: 0px 20px;
     transition: all 0.5s ease;
+    margin: 0px 20px;
+}
+
+#login, #signup{    
+    margin-top: 30px;
 }
 
 button:hover{
@@ -65,6 +69,13 @@ input :active, :hover, :focus {
 
 ::placeholder{
     font-size: 15px;
+}
+
+span{
+    color: #7B61FF;
+    float: left;
+    margin-left: 45px;
+    font-size: 11px;
 }
 
 form>button{
