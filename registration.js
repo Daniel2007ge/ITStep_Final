@@ -42,6 +42,39 @@ function func2(img) {
     }
 }
 
+// $("#login").click(function () {
+//     $.get("data.js", function (data) {
+//         let arr = data.Users
+//         console.log(data)
+//         console.log(arr)
+//         let input1 = $($("input")[0]).val()
+//         let input2 = $($("input")[1]).val()
+//         let check = false
+//         for (let index = 0; index < data.length; index++) {
+//             if((input1 == data[index].name) && (input2 == data[index].password)){
+//                 check = true
+//                 localStorage.setItem("user", JSON.stringify(data[index]))
+//                 $("span").animate({opacity: "0"})
+//                 window.open("UserPage.html")
+//             }
+//             if(input1 == ""){
+//                 check = true
+//                 $($("span")[0]).animate({opacity: "1"})
+//                 localStorage.removeItem("user")
+//             }
+//             if(input2 == "") {
+//                 check = true
+//                 $($("span")[1]).animate({opacity: "1"})
+//                 localStorage.removeItem("user")
+//             }
+//         }
+//         if(!check){
+//             $("span").animate({opacity: "0"})
+//             window.open("ErrorPage.html")
+//         }
+//     })
+// })
+
 $("#login").click(function () {
     let input1 = $($("input")[0]).val()
     let input2 = $($("input")[1]).val()
