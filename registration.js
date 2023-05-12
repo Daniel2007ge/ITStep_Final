@@ -50,22 +50,22 @@ $("#login").click(function () {
         if((input1 == Users[index].name) && (input2 == Users[index].password)){
             check = true
             localStorage.setItem("user", JSON.stringify(Users[index]))
-            $("span").html("")
+            $("span").animate({opacity: "0"})
             window.open("UserPage.html")
         }
         if(input1 == ""){
             check = true
-            $($("span")[0]).html("Your name is required")
+            $($("span")[0]).animate({opacity: "1"})
             localStorage.removeItem("user")
         }
         if(input2 == "") {
             check = true
-            $($("span")[1]).html("Your name is required")
+            $($("span")[1]).animate({opacity: "1"})
             localStorage.removeItem("user")
         }
     }
     if(!check){
-        $("span").html("")
+        $("span").animate({opacity: "0"})
         window.open("ErrorPage.html")
     }
 })
@@ -84,17 +84,17 @@ $("#signup").click(function () {
         }
         if (inputName == "") {
             check2 = true
-            $($("span")[2]).html("Your name is required")
+            $($("span")[2]).animate({opacity: "1"})
             localStorage.removeItem("user")
         }
         if (inputEmail == "") {
             check2 = true
-            $($("span")[3]).html("Your email is required")
+            $($("span")[3]).animate({opacity: "1"})
             localStorage.removeItem("user")
         }
         if(inputPassword == ""){
             check2 = true
-            $($("span")[4]).html("Your password is required")
+            $($("span")[4]).animate({opacity: "1"})
             localStorage.removeItem("user")
         }
     }
@@ -102,7 +102,7 @@ $("#signup").click(function () {
     if (!check2) {
         Users.push({name: inputName, email: inputEmail, password: inputPassword})
         localStorage.setItem("user", JSON.stringify({name: inputName, email: inputEmail, password:inputPassword}))
-        $("span").html("")
+        $("span").animate({opacity: "0"})
         window.open("UserPage.html")
     }
 })
