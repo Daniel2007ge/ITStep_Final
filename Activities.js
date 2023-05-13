@@ -1,4 +1,4 @@
-let card = globalVariable2.Activities
+let card = globalVariable.Activities
 let div = document.getElementsByTagName("div")[0]
 
 for (let index = 0; index < card.length; index++) {
