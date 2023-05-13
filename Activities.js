@@ -1,6 +1,6 @@
-let card = globalVariable1.Activities
+let card = globalVariable2.Activities
 let div = document.getElementsByTagName("div")[0]
-console.log(card[0])
+
 for (let index = 0; index < card.length; index++) {
     let figure = document.createElement("figure")
     figure.setAttribute("class", "fig_4")
