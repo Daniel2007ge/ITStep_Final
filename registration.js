@@ -1,5 +1,3 @@
-let Users = globalVariable.Users
-
 $(document).ready
 (
     $("form").slideUp(0),
@@ -36,14 +34,15 @@ function func2(img) {
     }
 }
 
+let Accounts = globalVariable1.Users
 $("#login").click(function () {
     let input1 = $($("input")[0]).val()
     let input2 = $($("input")[1]).val()
     let check = false
-    for (let index = 0; index < Users.length; index++) {
-        if((input1 == Users[index].name) && (input2 == Users[index].password)){
+    for (let index = 0; index < Accounts.length; index++) {
+        if((input1 == Accounts[index].name) && (input2 == Accounts[index].password)){
             check = true
-            localStorage.setItem("user", JSON.stringify(Users[index]))
+            localStorage.setItem("user", JSON.stringify(Accounts[index]))
             $("span").animate({opacity: "0"})
             window.open("UserPage.html")
         }
@@ -70,8 +69,8 @@ $("#signup").click(function () {
     let inputPassword = $($("input")[4]).val()
     let check2 = false
 
-    for (let index = 0; index < Users.length; index++) {
-        if ((inputName == Users[index].name) && (inputEmail == Users[index].email)) {
+    for (let index = 0; index < Accounts.length; index++) {
+        if ((inputName == Accounts[index].name) || (inputEmail == Accounts[index].email)) {
             // $($("span")[0]).append("Account with that kind of name or email is already existed")
             alert("Account with that kind of name or email is already existed")
             check2 = true
@@ -94,7 +93,7 @@ $("#signup").click(function () {
     }
 
     if (!check2) {
-        Users.push({name: inputName, email: inputEmail, password: inputPassword})
+        Accounts.push({name: inputName, email: inputEmail, password: inputPassword})
         localStorage.setItem("user", JSON.stringify({name: inputName, email: inputEmail, password:inputPassword}))
         $("span").animate({opacity: "0"})
         window.open("UserPage.html")

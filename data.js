@@ -1,4 +1,4 @@
-var globalVariable={
+var globalVariable1={
     Users: [
         {name:"Gabriel", email:"Gabriel@gmail.com", password:"password1"},
         {name:"Emma", email:"Emma@gmail.com", password:"password2"},
@@ -8,7 +8,7 @@ var globalVariable={
     ]
 }
 
-var globalVariable={
+var globalVariable2={
     Activities: [
         {title: "Sailing", img: "images/activities/1.png"},
         {title: "Climbing", img: "images/activities/2.png"},
