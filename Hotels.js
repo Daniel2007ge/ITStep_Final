@@ -17,6 +17,9 @@ for (let index = 0; index < card.length; index++) {
     <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
     </svg>`
     footer.append(card[index].location)
+    
+    let br = document.createElement("br")
+    footer.append(br)
 
     let img2 = document.createElement("img")
     img2.setAttribute("src", card[index].stars)
