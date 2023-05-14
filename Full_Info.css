@@ -44,7 +44,10 @@ b{
 
 span{
     font-size: 22px;
+}
 
+svg{
+    padding-right: 10px;
 }
 
 #container{

@@ -37,5 +37,6 @@ for (let index = 0; index < card.length; index++) {
 
 function func1(element) {
     window.open("Full_Info.html")
-    localStorage.setItem("num", element+1)
+    localStorage.setItem("num1", element)
+    localStorage.setItem("num2", element+1)
 }
