@@ -4,6 +4,7 @@ let div = document.getElementsByTagName("div")[0]
 for (let index = 0; index < card.length; index++) {
     let figure = document.createElement("figure")
     figure.setAttribute("class", "fig_2")
+    figure.setAttribute("onclick", "func1("+index+")")
 
     let img1 = document.createElement("img")
     img1.setAttribute("src", card[index].img)
@@ -32,4 +33,9 @@ for (let index = 0; index < card.length; index++) {
     figure.append(footer)
 
     div.append(figure)
+}
+
+function func1(element) {
+    window.open("Full_Info.html")
+    localStorage.setItem("num", element+1)
 }

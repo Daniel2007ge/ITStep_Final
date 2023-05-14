@@ -14,7 +14,7 @@ var globalVariable={
             stars: "images/5.png",
             img: "images/hotels and restaurants/hotel1.png",
             role: "hotel",
-            rooms: 5,
+            rooms: 4,
             price: "2875 $",
             description: `<p>Set in a restored 17th-century monastery, this elegant clifftop hotel 
                         overlooking the sea is 1 km from the beach and 8 km from the gardens of Villa 
@@ -34,7 +34,7 @@ var globalVariable={
             stars: "images/3.png",
             img: "images/hotels and restaurants/hotel2.png",
             role: "hotel",
-            rooms: 4,
+            rooms: 6,
             price: "1517 $",
             description: `<p>Overlooking Lake Como, this palatial art nouveau hotel is 250 m from 
                         the Villa Carlotta museum and botanic garden.</p>
@@ -134,7 +134,7 @@ var globalVariable={
             stars: "images/5.png",
             img: "images/hotels and restaurants/hotel7.png",
             role: "hotel",
-            rooms: 5,
+            rooms: 4,
             price: "820 $",
             description: `<p>It’s impossible to look at Ahn Luh Zhujiajiao and not be 
                         impressed. Housed partially in a 600-year-old courthouse from 
