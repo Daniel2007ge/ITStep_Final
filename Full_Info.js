@@ -18,6 +18,11 @@ div.prepend(h1)
 let button = document.createElement("button")
 button.innerText = "Serve"
 div.append(button)
+if(localStorage.length == 2){
+    button.style.display = "none"
+}else {
+    button.style.display = "block"
+}
 
 let b = document.createElement("b")
 b.innerText = Hotel[x].price
