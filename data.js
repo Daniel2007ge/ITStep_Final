@@ -69,7 +69,7 @@ var globalVariable={
 
         {
             name: "AKA Beverly Hills", 
-            location: "Los Angeles, United States", 
+            location: "Los Angeles, USA",
             stars: "images/5.png",
             img: "images/hotels and restaurants/hotel4.png",
             role: "hotel",

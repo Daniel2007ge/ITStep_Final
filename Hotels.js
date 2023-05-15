@@ -4,7 +4,6 @@ let div = document.getElementsByTagName("div")[0]
 for (let index = 0; index < card.length; index++) {
     let figure = document.createElement("figure")
     figure.setAttribute("class", "fig_2")
-    figure.setAttribute("onclick", "func1("+index+")")
 
     let img1 = document.createElement("img")
     img1.setAttribute("src", card[index].img)
@@ -25,8 +24,12 @@ for (let index = 0; index < card.length; index++) {
     let img2 = document.createElement("img")
     img2.setAttribute("src", card[index].stars)
     img2.setAttribute("class", "stars")
-
     footer.append(img2)
+
+    let button = document.createElement("button")
+    button.innerText = "More"
+    button.setAttribute("onclick", "func1("+index+")")
+    footer.append(button)
 
     figure.append(img1)
     figure.append(figcaption)
@@ -37,6 +40,7 @@ for (let index = 0; index < card.length; index++) {
 
 function func1(element) {
     window.open("Full_Info.html")
+    window.close("Hotels.html")
     localStorage.setItem("num1", element)
     localStorage.setItem("num2", element+1)
 }

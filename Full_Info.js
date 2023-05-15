@@ -51,3 +51,8 @@ function func1(e) {
     newImg.setAttribute("src", "images/hotels and restaurants/rooms/hotel"+x2+"/"+e2+".png")
     document.getElementsByTagName("html")[0].scrollTop = 855
 }
+
+function Back() {
+    window.close("Full_Info.html")
+    window.open("Hotels.html")
+}
