@@ -34,18 +34,22 @@ button{
     color: #7B61FF;
     border-radius: 50px;
     font-size: 22px;
-    margin: 0px;
+    float: left;
 }
 
 b{
     font-size: 22px;
     color: #7B61FF;
-    padding-right: 40px;
     padding-left: 40px;
+    margin-top: 10px;
+    position: absolute;
 }
 
 span{
     font-size: 22px;
+    padding-left: 150px;
+    margin-top: 10px;
+    position: absolute;
 }
 
 svg{
