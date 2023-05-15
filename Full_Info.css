@@ -60,6 +60,18 @@ svg{
 
 #container>img{
     height: 150px;
+    width: 220px;
     padding: 10px;
     float: left;
+}
+
+section{
+    width: 80vw;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 190px;
+    margin-bottom: 30px;
+    justify-content: center;
+    display: none;
 }

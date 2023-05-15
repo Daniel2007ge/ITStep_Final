@@ -34,6 +34,15 @@ let x2 = localStorage.getItem("num2")
 let div2 = document.getElementById("container")
 for (let index = 0; index < Hotel[x].rooms; index++) {
     let img3 = document.createElement("img")
+    img3.setAttribute("onclick", "func1("+index+")")
     img3.setAttribute("src", "images/hotels and restaurants/rooms/hotel"+x2+"/"+(index+1)+".png")
     div2.append(img3)
+}
+
+function func1(e) {
+    let e2 = e + 1
+    document.getElementsByTagName("section")[0].style.display = "flex"
+    let newImg = document.getElementById("new")
+    newImg.setAttribute("src", "images/hotels and restaurants/rooms/hotel"+x2+"/"+e2+".png")
+    document.getElementsByTagName("html")[0].scrollTop = 855
 }
