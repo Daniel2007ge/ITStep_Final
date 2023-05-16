@@ -171,6 +171,104 @@ var globalVariable={
                         restaurant, as well as a chic bar. There's also a spa with an 
                         indoor pool and a gym.</p>`
         },
+
+        {
+            name: "Alain Ducasse au Plaza Athénée", 
+            location: "Paris, France", 
+            stars: "images/4.png",
+            img: "images/hotels and restaurants/restaurant1.png",
+            role: "restaurant",
+            description: `<p>The smell of freshly baked croissants fills the air as you approach 
+                        the entrance of the exquisite restaurant, situated just a stone's throw 
+                        away from the magnificent Eiffel Tower in Paris. With its tastefully 
+                        decorated interiors, featuring ornate chandeliers, plush seating, elegant 
+                        table settings and beautiful artwork, the restaurant exudes a timeless 
+                        grandeur, transporting you to an era of extravagance and opulence.</p>
+                        <p>The menu at this restaurant is an exquisite selection of French 
+                        delicacies, crafted to perfection by renowned chefs with years of culinary 
+                        expertise. From the succulent meat dishes to the light and fluffy soufflés, 
+                        each dish is a work of art, designed to ignite your senses and tantalize your 
+                        taste buds. The chef's special, a delectable lobster bisque served with a side 
+                        of freshly baked baguette, is a must-try for all seafood lovers.</p>`
+        },
+
+        {
+            name: "Marco Martini Roma", 
+            location: "Rome, Italy", 
+            stars: "images/5.png",
+            img: "images/hotels and restaurants/restaurant2.png",
+            role: "restaurant",
+            description: `<p>Located in the heart of Rome, Italy, is a restaurant unlike any other. 
+                        As you step through the doors of this eatery, you're greeted by the 
+                        warm and comforting smell of freshly made pasta. The ambiance is cozy, yet still 
+                        manages to evoke the bustling energy of one of Italy's most famous cities.</p>
+                        <p>With a focus on rustic, traditional Italian cuisine, the menu at this restaurant 
+                        includes classics such as carbonara, spaghetti alle vongole, and pizza margherita. 
+                        Each dish is made with the freshest ingredients, hand-selected from local markets. 
+                        The wine list, too, is a tribute to Italy's rich culinary heritage, with an extensive 
+                        selection of regional and national wines. Whether you're a tourist or a local, this 
+                        restaurant is a must-visit destination for anyone looking for an authentic 
+                        Italian dining experience.</p>`
+        },
+
+        {
+            name: "Narisawa", 
+            location: "Tokyo, Japan", 
+            stars: "images/5.png",
+            img: "images/hotels and restaurants/restaurant3.png",
+            role: "restaurant",
+            description: `<p>Narisawa offers a vast menu of authentic Japanese dishes, including a 
+                        delectable array of fresh sushi and sashimi. The restaurant's chefs take great 
+                        care in selecting the best seafood available in the market, ensuring that every 
+                        dish served here is of the highest quality. To complement its delicious dishes, 
+                        the restaurant also offers a range of sake and Japanese beer options, making it a 
+                        perfect spot for an intimate dinner or a night out with friends.</p>
+                        <p>Narisawa's exceptional service and traditional Japanese ambiance make it a 
+                        must-visit restaurant in Tokyo. From its mouth-watering seafood to its cozy and 
+                        comfortable setting, Narisawa is undoubtedly one of the best restaurants in the 
+                        city and a must-try for anyone visiting Tokyo.</p>`
+        },
+
+        {
+            name: "NOtaBLE - The Restaurant", 
+            location: "Calgary, Canada", 
+            stars: "images/4.png",
+            img: "images/hotels and restaurants/restaurant4.png",
+            role: "restaurant",
+            description: `<p>Welcome to NOtaBLE, the ultimate Canadian culinary experience. This 
+                        rustic and cozy restaurant is located in the heart of Calgary and offers a unique 
+                        blend of traditional Canadian dishes with a modern twist. As you step inside 
+                        NOtaBLE, you will be greeted with warm and friendly staff and the aroma of 
+                        tantalizing dishes being cooked to perfection.</p>
+                        <p>The restaurant boasts a menu that reflects the diversity of Canada's culinary 
+                        culture. From the succulent smoked beef brisket to the classic poutine, everything is 
+                        carefully crafted using local and seasonal ingredients. The decor of Smokey Moose is 
+                        inspired by Canada's wilderness and wildlife. The walls are adorned with breathtaking 
+                        landscapes and the furniture is reminiscent of a cozy cabin in the woods. The atmosphere 
+                        is lively and joyful with live music performances and a bustling open kitchen. To 
+                        finalize your meal, their selection of Canadian desserts will leave you wanting for more. 
+                        For a truly Canadian dining experience, Smokey Moose is the place to be.</p>`
+        },
+
+        {
+            name: "The Restaurant", 
+            location: "New York, USA", 
+            stars: "images/5.png",
+            img: "images/hotels and restaurants/restaurant5.png",
+            role: "restaurant",
+            description: `<p>The menu at this restaurant is a culinary tour de force, featuring 
+                        carefully curated dishes that showcase the best of New York's diverse gastronomic 
+                        landscape. From elevated takes on classic comfort foods like mac and cheese to exotic 
+                        global flavors like Thai curries and French foie gras, there's something here to suit 
+                        every palate. And with a rotating selection of seasonal specials, there's always 
+                        something new and exciting to discover.</p>
+                        <p>But dining at this restaurant isn't just about the food – it's a full sensory 
+                        experience that engages all the senses. From the artfully constructed cocktails to the 
+                        impeccable service and stunning views, every detail has been meticulously crafted to 
+                        create a one-of-a-kind dining adventure. So whether you're celebrating a special occasion 
+                        or just looking to elevate your dining experience to the next level, this 
+                        restaurant is the perfect destination for discerning foodies and adventurers alike.</p>`
+        },
     ],
 
     Activities: [
