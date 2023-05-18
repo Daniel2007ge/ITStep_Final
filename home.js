@@ -6,6 +6,7 @@ function func1() {
 function func2(index) {
     if (index == 0) {
         window.open("Hotels.html")
+        localStorage.setItem("type", "")
     }else if (index == 1) {
         window.open("Trips.html")
     }else {
