@@ -51,7 +51,7 @@ var globalVariable={
         },
 
         {
-            name: "The Oberoi Udaivilas, Udaipur", 
+            name: "The Oberoi Udaivilas Hotel", 
             location: "Udaipur, India", 
             stars: "images/4.png",
             img: "images/hotels and restaurants/hotel3.png",
@@ -71,7 +71,7 @@ var globalVariable={
         },
 
         {
-            name: "AKA Beverly Hills", 
+            name: "AKA Beverly Hills Hotel", 
             location: "Los Angeles, USA",
             stars: "images/5.png",
             img: "images/hotels and restaurants/hotel4.png",
@@ -113,7 +113,7 @@ var globalVariable={
         },
 
         {
-            name: "Fairmont Vancouver Airport", 
+            name: "Fairmont Vancouver Airport Hotel", 
             location: "Vancouver, Canada", 
             stars: "images/5.png",
             img: "images/hotels and restaurants/hotel6.png",
@@ -135,7 +135,7 @@ var globalVariable={
         },
 
         {
-            name: "Ahn Luh Zhujiajiao", 
+            name: "Ahn Luh Zhujiajiao Hotel", 
             location: "Zhujiajiao, China", 
             stars: "images/5.png",
             img: "images/hotels and restaurants/hotel7.png",
@@ -158,7 +158,7 @@ var globalVariable={
         },
 
         {
-            name: "Shangri-La Paris", 
+            name: "Shangri-La Paris Hotel", 
             location: "Paris, France", 
             stars: "images/5.png",
             img: "images/hotels and restaurants/hotel8.png",
@@ -181,8 +181,8 @@ var globalVariable={
         },
 
         {
-            name: "Alain Ducasse au Plaza Athénée", 
-            location: "Paris, France", 
+            name: "Alain Ducasse au Plaza Athénée",
+            location: "Paris, France",
             stars: "images/4.png",
             img: "images/hotels and restaurants/restaurant1.png",
             role: "restaurant",
@@ -204,7 +204,7 @@ var globalVariable={
         },
 
         {
-            name: "Marco Martini Roma", 
+            name: "Marco Martini Roma",
             location: "Rome, Italy", 
             stars: "images/5.png",
             img: "images/hotels and restaurants/restaurant2.png",
@@ -226,7 +226,7 @@ var globalVariable={
         },
 
         {
-            name: "Narisawa", 
+            name: "Narisawa Restaurant", 
             location: "Tokyo, Japan", 
             stars: "images/5.png",
             img: "images/hotels and restaurants/restaurant3.png",
