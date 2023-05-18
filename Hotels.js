@@ -43,7 +43,7 @@ if ((type == "") && (place == "")){
     }
 }else {
     for (let index = 0; index < Hotels_And_Restourants.length; index++) {
-        if ((Hotels_And_Restourants[index].role == type) && (Hotels_And_Restourants[index].city == place || Hotels_And_Restourants[index].country == place)) {
+        if ((Hotels_And_Restourants[index].role == type) || (Hotels_And_Restourants[index].city == place || Hotels_And_Restourants[index].country == place)) {
     
             let figure = document.createElement("figure")
             figure.setAttribute("class", "fig_2")
