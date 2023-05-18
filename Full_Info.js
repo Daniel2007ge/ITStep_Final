@@ -18,7 +18,7 @@ div.prepend(h1)
 let button = document.createElement("button")
 button.innerText = "Serve"
 div.append(button)
-if(localStorage.length <= 2){
+if(localStorage.length <= 3){
     button.style.opacity = 0.5
     button.setAttribute("title", "You need to create an account for to serve")
 }

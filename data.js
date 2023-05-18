@@ -9,7 +9,9 @@ var Users = [
 var Hotels_And_Restourants = [
     {
         name: "Monastero Santa Rosa Hotel & Spa", 
-        location: "Salerno, Italy", 
+        location: "Salerno, Italy",
+        country: "Italy",
+        city: "Salerno",
         stars: "images/5.png",
         img: "images/hotels and restaurants/hotel1.png",
         role: "hotel",
@@ -30,7 +32,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "Grand Hotel Tremezzo", 
-        location: "Lake Como, Italy", 
+        location: "Lake Como, Italy",
+        country: "Italy",
+        city: "Como",
         stars: "images/3.png",
         img: "images/hotels and restaurants/hotel2.png",
         role: "hotel",
@@ -51,7 +55,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "The Oberoi Udaivilas Hotel", 
-        location: "Udaipur, India", 
+        location: "Udaipur, India",
+        country: "India",
+        city: "Udaipur",
         stars: "images/4.png",
         img: "images/hotels and restaurants/hotel3.png",
         role: "hotel",
@@ -72,6 +78,8 @@ var Hotels_And_Restourants = [
     {
         name: "AKA Beverly Hills Hotel", 
         location: "Los Angeles, USA",
+        country: "USA",
+        city: "Los Angeles",
         stars: "images/5.png",
         img: "images/hotels and restaurants/hotel4.png",
         role: "hotel",
@@ -92,7 +100,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "Sheraton Vancouver Airport Hotel", 
-        location: "Vancouver, Canada", 
+        location: "Vancouver, Canada",
+        country: "Canada",
+        city: "Vancouver",
         stars: "images/4.png",
         img: "images/hotels and restaurants/hotel5.png",
         role: "hotel",
@@ -113,7 +123,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "Fairmont Vancouver Airport Hotel", 
-        location: "Vancouver, Canada", 
+        location: "Vancouver, Canada",
+        country: "Canada",
+        city: "Vancouver",
         stars: "images/5.png",
         img: "images/hotels and restaurants/hotel6.png",
         role: "hotel",
@@ -135,7 +147,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "Ahn Luh Zhujiajiao Hotel", 
-        location: "Zhujiajiao, China", 
+        location: "Zhujiajiao, China",
+        country: "China",
+        city: "Zhujiajiao",
         stars: "images/5.png",
         img: "images/hotels and restaurants/hotel7.png",
         role: "hotel",
@@ -158,7 +172,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "Shangri-La Paris Hotel", 
-        location: "Paris, France", 
+        location: "Paris, France",
+        country: "France",
+        city: "Paris",
         stars: "images/5.png",
         img: "images/hotels and restaurants/hotel8.png",
         role: "hotel",
@@ -182,6 +198,8 @@ var Hotels_And_Restourants = [
     {
         name: "Alain Ducasse au Plaza Athénée",
         location: "Paris, France",
+        country: "France",
+        city: "Paris",
         stars: "images/4.png",
         img: "images/hotels and restaurants/restaurant1.png",
         role: "restaurant",
@@ -204,7 +222,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "Marco Martini Roma",
-        location: "Rome, Italy", 
+        location: "Rome, Italy",        
+        country: "Italy",
+        city: "Rome",
         stars: "images/5.png",
         img: "images/hotels and restaurants/restaurant2.png",
         role: "restaurant",
@@ -226,7 +246,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "Narisawa Restaurant", 
-        location: "Tokyo, Japan", 
+        location: "Tokyo, Japan",
+        country: "Japan",
+        city: "Tokyo",
         stars: "images/5.png",
         img: "images/hotels and restaurants/restaurant3.png",
         role: "restaurant",
@@ -247,7 +269,9 @@ var Hotels_And_Restourants = [
 
     {
         name: "The Restaurant", 
-        location: "New York, USA", 
+        location: "New York, USA",
+        country: "USA",
+        city: "New York",
         stars: "images/5.png",
         img: "images/hotels and restaurants/restaurant4.png",
         role: "restaurant",
