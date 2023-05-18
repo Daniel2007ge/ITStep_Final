@@ -34,7 +34,6 @@ function func2(img) {
     }
 }
 
-// let Accounts = globalVariable.Users
 $("#login").click(function () {
     let input1 = $($("input")[0]).val()
     let input2 = $($("input")[1]).val()

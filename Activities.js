@@ -1,4 +1,3 @@
-// let card = globalVariable.Activities
 let div = document.getElementsByTagName("div")[0]
 
 for (let index = 0; index < Activities.length; index++) {

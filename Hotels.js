@@ -1,4 +1,3 @@
-// let card = globalVariable.Hotels_And_Restourants
 let div = document.getElementsByTagName("div")[0]
 let type = localStorage.getItem("type")
 
