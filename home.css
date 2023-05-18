@@ -67,6 +67,15 @@ a{
     float: none;
 }
 
+#search{
+    width: 60vw;
+    height: 60px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 280px;
+}
+
 h2{
     margin-top:50px;
     margin-bottom:30px;
