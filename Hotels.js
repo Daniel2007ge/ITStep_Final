@@ -42,5 +42,4 @@ function func1(element) {
     window.open("Full_Info.html")
     window.close("Hotels.html")
     localStorage.setItem("num1", element)
-    localStorage.setItem("num2", element+1)
 }

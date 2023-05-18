@@ -15,6 +15,7 @@ var globalVariable={
             img: "images/hotels and restaurants/hotel1.png",
             role: "hotel",
             rooms: 4,
+            roomPhoto: "images/hotels and restaurants/rooms/hotel1/",
             price: "2875 $",
             description: `<p>Set in a restored 17th-century monastery, this elegant clifftop hotel 
                         overlooking the sea is 1 km from the beach and 8 km from the gardens of Villa 
@@ -35,6 +36,7 @@ var globalVariable={
             img: "images/hotels and restaurants/hotel2.png",
             role: "hotel",
             rooms: 6,
+            roomPhoto: "images/hotels and restaurants/rooms/hotel2/",
             price: "1517 $",
             description: `<p>Overlooking Lake Como, this palatial art nouveau hotel is 250 m from 
                         the Villa Carlotta museum and botanic garden.</p>
@@ -55,6 +57,7 @@ var globalVariable={
             img: "images/hotels and restaurants/hotel3.png",
             role: "hotel",
             rooms: 3,
+            roomPhoto: "images/hotels and restaurants/rooms/hotel3/",
             price: "405 $",
             description: `<p>Set amid gardens and overlooking Lake Pichola, this luxury hotel is 
                         2 km from both Jagdish Temple and the City Palace Museum.</p>
@@ -74,6 +77,7 @@ var globalVariable={
             img: "images/hotels and restaurants/hotel4.png",
             role: "hotel",
             rooms: 5,
+            roomPhoto: "images/hotels and restaurants/rooms/hotel4/",
             price: "650 $",
             description: `<p>This upscale, extended-stay hotel in the prestigious Golden Triangle 
                         area is 8 minutes on foot from the glitzy shops on Rodeo Drive and 6 miles 
@@ -93,7 +97,8 @@ var globalVariable={
             stars: "images/4.png",
             img: "images/hotels and restaurants/hotel5.png",
             role: "hotel",
-            rooms: 4,
+            rooms: 4,            
+            roomPhoto: "images/hotels and restaurants/rooms/hotel5/",
             price: "303 $",
             description: `<p>Set 5.8 km from Vancouver International Airport, this unfussy business 
                         hotel is also 14.1 km from Vancouver Art Gallery.</p>
@@ -114,6 +119,7 @@ var globalVariable={
             img: "images/hotels and restaurants/hotel6.png",
             role: "hotel",
             rooms: 5,
+            roomPhoto: "images/hotels and restaurants/rooms/hotel6/",
             price: "283 $",
             description: `<p>Set within the Vancouver International Airport, this upscale hotel 
                         is 1 km from YVR-Airport Station train station and 9 km from VanDusen 
@@ -135,6 +141,7 @@ var globalVariable={
             img: "images/hotels and restaurants/hotel7.png",
             role: "hotel",
             rooms: 4,
+            roomPhoto: "images/hotels and restaurants/rooms/hotel7/",
             price: "820 $",
             description: `<p>It’s impossible to look at Ahn Luh Zhujiajiao and not be 
                         impressed. Housed partially in a 600-year-old courthouse from 
@@ -156,7 +163,8 @@ var globalVariable={
             stars: "images/5.png",
             img: "images/hotels and restaurants/hotel8.png",
             role: "hotel",
-            rooms: 7,            
+            rooms: 7,
+            roomPhoto: "images/hotels and restaurants/rooms/hotel8/",  
             price: "3374 $",
             description: `<p>Occupying a former royal home situated among elegant 
                         buildings, this ritzy hotel in the 16th arr. is a 2-minute walk from 
@@ -169,7 +177,7 @@ var globalVariable={
                         suites come with living rooms; some provide dining rooms.</p>
                         <p>There are 3 posh dining options, including an acclaimed 
                         restaurant, as well as a chic bar. There's also a spa with an 
-                        indoor pool and a gym.</p>`
+                        indoor pool and a gym.<br><br><br><br><br></p>`
         },
 
         {
@@ -178,6 +186,9 @@ var globalVariable={
             stars: "images/4.png",
             img: "images/hotels and restaurants/restaurant1.png",
             role: "restaurant",
+            rooms: 5,
+            roomPhoto: "images/hotels and restaurants/rooms/restaurant1/",
+            price: "min: 120$",
             description: `<p>The smell of freshly baked croissants fills the air as you approach 
                         the entrance of the exquisite restaurant, situated just a stone's throw 
                         away from the magnificent Eiffel Tower in Paris. With its tastefully 
@@ -198,6 +209,9 @@ var globalVariable={
             stars: "images/5.png",
             img: "images/hotels and restaurants/restaurant2.png",
             role: "restaurant",
+            rooms: 3,
+            roomPhoto: "images/hotels and restaurants/rooms/restaurant2/",
+            price: "min: 87$",
             description: `<p>Located in the heart of Rome, Italy, is a restaurant unlike any other. 
                         As you step through the doors of this eatery, you're greeted by the 
                         warm and comforting smell of freshly made pasta. The ambiance is cozy, yet still 
@@ -217,6 +231,9 @@ var globalVariable={
             stars: "images/5.png",
             img: "images/hotels and restaurants/restaurant3.png",
             role: "restaurant",
+            rooms: 4,
+            roomPhoto: "images/hotels and restaurants/rooms/restaurant3/",
+            price: "min: 100$",
             description: `<p>Narisawa offers a vast menu of authentic Japanese dishes, including a 
                         delectable array of fresh sushi and sashimi. The restaurant's chefs take great 
                         care in selecting the best seafood available in the market, ensuring that every 
@@ -230,32 +247,14 @@ var globalVariable={
         },
 
         {
-            name: "NOtaBLE - The Restaurant", 
-            location: "Calgary, Canada", 
-            stars: "images/4.png",
-            img: "images/hotels and restaurants/restaurant4.png",
-            role: "restaurant",
-            description: `<p>Welcome to NOtaBLE, the ultimate Canadian culinary experience. This 
-                        rustic and cozy restaurant is located in the heart of Calgary and offers a unique 
-                        blend of traditional Canadian dishes with a modern twist. As you step inside 
-                        NOtaBLE, you will be greeted with warm and friendly staff and the aroma of 
-                        tantalizing dishes being cooked to perfection.</p>
-                        <p>The restaurant boasts a menu that reflects the diversity of Canada's culinary 
-                        culture. From the succulent smoked beef brisket to the classic poutine, everything is 
-                        carefully crafted using local and seasonal ingredients. The decor of Smokey Moose is 
-                        inspired by Canada's wilderness and wildlife. The walls are adorned with breathtaking 
-                        landscapes and the furniture is reminiscent of a cozy cabin in the woods. The atmosphere 
-                        is lively and joyful with live music performances and a bustling open kitchen. To 
-                        finalize your meal, their selection of Canadian desserts will leave you wanting for more. 
-                        For a truly Canadian dining experience, Smokey Moose is the place to be.</p>`
-        },
-
-        {
             name: "The Restaurant", 
             location: "New York, USA", 
             stars: "images/5.png",
-            img: "images/hotels and restaurants/restaurant5.png",
+            img: "images/hotels and restaurants/restaurant4.png",
             role: "restaurant",
+            rooms: 3,
+            roomPhoto: "images/hotels and restaurants/rooms/restaurant4/",
+            price: "min: 90$",
             description: `<p>The menu at this restaurant is a culinary tour de force, featuring 
                         carefully curated dishes that showcase the best of New York's diverse gastronomic 
                         landscape. From elevated takes on classic comfort foods like mac and cheese to exotic 
@@ -265,9 +264,7 @@ var globalVariable={
                         <p>But dining at this restaurant isn't just about the food – it's a full sensory 
                         experience that engages all the senses. From the artfully constructed cocktails to the 
                         impeccable service and stunning views, every detail has been meticulously crafted to 
-                        create a one-of-a-kind dining adventure. So whether you're celebrating a special occasion 
-                        or just looking to elevate your dining experience to the next level, this 
-                        restaurant is the perfect destination for discerning foodies and adventurers alike.</p>`
+                        create a one-of-a-kind dining adventure.</p>`
         },
     ],
 
