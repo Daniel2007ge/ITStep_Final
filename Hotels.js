@@ -84,6 +84,10 @@ if ((type == "") && (place == "")){
     }
 }
 
+if (div.innerHTML == "") {
+    div.innerHTML = "<h1>Nothing found for your request</h1>"
+}
+
 function func1(element) {
     window.open("Full_Info.html")
     window.close("Hotels.html")
