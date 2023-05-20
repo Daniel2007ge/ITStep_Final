@@ -41,8 +41,7 @@ button:hover{
 
 form{
     display: none;
-    /* width: 400px; */
-    width: 30vw;
+    width: 400px;
     height: auto;
     padding-top: 50px;
     margin: auto;
@@ -53,7 +52,7 @@ form{
 
 input{
     height: 40px;
-    width: 22vw;
+    width: 300px;
     padding-left: 20px;
     margin: auto;
     border: 1px solid #7B61FF;
@@ -98,4 +97,18 @@ form>div{
     margin-left: -40px;
     opacity: 0;
     transition: all 0.5s ease;
+}
+
+@media screen and (max-width:420px){
+    form{
+        width: 250px;
+    }
+
+    input{
+        width: 200px;
+    }
+
+    span{
+        margin-left: 20px;
+    }
 }
