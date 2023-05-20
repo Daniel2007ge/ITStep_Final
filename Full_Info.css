@@ -38,12 +38,14 @@ a:hover{
     float: none;
 }
 
-img{
+#HR{
     float: left;
+    width: 314px;
+    height: auto;
 }
 
 div{
-    width: 543px;
+    width: 50vw;
     float: left;
     margin-left: 40px;
 }
@@ -106,4 +108,40 @@ section{
     margin-bottom: 30px;
     justify-content: center;
     display: none;
+}
+
+@media screen and (max-width: 898px){    
+    div{
+        float: none;
+        margin-top: 400px;
+        width: 80%;
+    }
+
+    #star{
+        margin-left: 30%;
+    }
+
+    #HR{
+        margin-left: 25%;
+    }
+
+    #container{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 525px){    
+    div{
+        float: none;
+        margin-top: 400px;
+        width: 80%;
+    }
+
+    #star{
+        margin-left: 24%;
+    }
+
+    #HR{
+        margin-left: 15%;
+    }
 }
