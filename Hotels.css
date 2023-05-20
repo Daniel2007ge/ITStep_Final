@@ -1,0 +1,42 @@
+div{
+    width: 88vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure{
+    float: left;
+    margin: 20px;
+    justify-content: center;
+}
+
+svg{
+    padding-right: 5px;
+}
+
+button{
+    margin: 0px;
+    float: right;
+}
+
+h1{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 38px;
+    color: #7B61FF;
+}
+
+#search{
+    width: 44.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#search>button{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
