@@ -4,11 +4,37 @@ body{
     font-family: "Malgun Gothic";
 }
 
+nav{
+    width: 96vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    width: calc(100% / 12);
+    padding: 10px 0px;
+    margin: 0px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    color: #7B61FF;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    border: 1px solid #7B61FF;
+    transition: all 0.5s ease;
+}
+
 #star{
     width: 250px;
     margin-left: 30px;
     margin-bottom: 20px;
-    margin-top: -40px;
     float: none;
 }
 
