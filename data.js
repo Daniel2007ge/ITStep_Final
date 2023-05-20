@@ -18,6 +18,7 @@ var Hotels_And_Restourants = [
         rooms: 4,
         roomPhoto: "images/hotels and restaurants/rooms/hotel1/",
         price: "2875 $",
+        activity: ["Sailing", "Diving", "Surfing"],
         description: `<p>Set in a restored 17th-century monastery, this elegant clifftop hotel 
                     overlooking the sea is 1 km from the beach and 8 km from the gardens of Villa 
                     Rufolo.</p>
@@ -41,6 +42,8 @@ var Hotels_And_Restourants = [
         rooms: 6,
         roomPhoto: "images/hotels and restaurants/rooms/hotel2/",
         price: "1517 $",
+        activity: ["Rafting", "Hiking", "Mountain biking"],
+        // Bungee jumping, Paragliding
         description: `<p>Overlooking Lake Como, this palatial art nouveau hotel is 250 m from 
                     the Villa Carlotta museum and botanic garden.</p>
                     <p>Formal rooms offer Wi-Fi, flat-screen TVs, minibars and park or lake views; 
@@ -64,6 +67,7 @@ var Hotels_And_Restourants = [
         rooms: 3,
         roomPhoto: "images/hotels and restaurants/rooms/hotel3/",
         price: "405 $",
+        activity: ["Roller-skating", "Skateboarding", "Wingsuit surfing"],
         description: `<p>Set amid gardens and overlooking Lake Pichola, this luxury hotel is 
                     2 km from both Jagdish Temple and the City Palace Museum.</p>
                     <p>Bright, elegant rooms and suites feature flat-screen TVs, free Wi-Fi, 
@@ -86,6 +90,8 @@ var Hotels_And_Restourants = [
         rooms: 5,
         roomPhoto: "images/hotels and restaurants/rooms/hotel4/",
         price: "650 $",
+        activity: ["Roller-skating", "Climbing", "Mountain biking"],
+        //Skateboarding, Hiking, Wingsuit surfing, Paragliding
         description: `<p>This upscale, extended-stay hotel in the prestigious Golden Triangle 
                     area is 8 minutes on foot from the glitzy shops on Rodeo Drive and 6 miles 
                     from Santa Monica Airport.</p>
@@ -109,6 +115,8 @@ var Hotels_And_Restourants = [
         rooms: 4,            
         roomPhoto: "images/hotels and restaurants/rooms/hotel5/",
         price: "303 $",
+        activity: ["Skiing", "Snowboarding", "Ice climbing", "Snowmobile Racing"],
+        //Paragliding, Bungee jumping, Roller-skating, Skateboarding
         description: `<p>Set 5.8 km from Vancouver International Airport, this unfussy business 
                     hotel is also 14.1 km from Vancouver Art Gallery.</p>
                     <p>Understated rooms have free WiFi, 37-inch flat-screen TVs and balconies, 
@@ -132,6 +140,8 @@ var Hotels_And_Restourants = [
         rooms: 5,
         roomPhoto: "images/hotels and restaurants/rooms/hotel6/",
         price: "283 $",
+        activity: ["Skiing", "Snowboarding", "Ice climbing", "Snowmobile Racing"],
+        //Paragliding, Bungee jumping, Roller-skating, Skateboarding
         description: `<p>Set within the Vancouver International Airport, this upscale hotel 
                     is 1 km from YVR-Airport Station train station and 9 km from VanDusen 
                     Botanical Garden.</p>
@@ -156,6 +166,7 @@ var Hotels_And_Restourants = [
         rooms: 4,
         roomPhoto: "images/hotels and restaurants/rooms/hotel7/",
         price: "820 $",
+        activity: ["Sailing", "Skateboarding", "Roller-skating"],
         description: `<p>It’s impossible to look at Ahn Luh Zhujiajiao and not be 
                     impressed. Housed partially in a 600-year-old courthouse from 
                     the Ming Dynasty, this hotel looks like the film set for Raise 
@@ -181,6 +192,7 @@ var Hotels_And_Restourants = [
         rooms: 7,
         roomPhoto: "images/hotels and restaurants/rooms/hotel8/",  
         price: "3374 $",
+        activity: ["Skateboarding", "Roller-skating"],
         description: `<p>Occupying a former royal home situated among elegant 
                     buildings, this ritzy hotel in the 16th arr. is a 2-minute walk from 
                     Iéna metro station, 11 minutes' walk from the Eiffel Tower and 
@@ -307,5 +319,5 @@ var Activities = [
     {title: "Paragliding", img: "images/activities/13.png"},
     {title: "Rafting", img: "images/activities/14.png"},
     {title: "Surfing", img: "images/activities/15.png"},
-    {title: "Surfing", img: "images/activities/16.png"},
+    {title: "Snowmobile Racing", img: "images/activities/16.png"},
 ]
