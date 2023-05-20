@@ -1,6 +1,7 @@
 let div = document.getElementsByTagName("div")[0]
 let type = localStorage.getItem("type")
 let place = localStorage.getItem("place")
+let active = localStorage.getItem("active")
 
 if ((type == "") && (place == "")){
     for (let index = 0; index < Hotels_And_Restourants.length; index++) {
@@ -43,7 +44,9 @@ if ((type == "") && (place == "")){
     }
 }else {
     for (let index = 0; index < Hotels_And_Restourants.length; index++) {
-        if ((Hotels_And_Restourants[index].role == type || type == "") && (Hotels_And_Restourants[index].city == place || Hotels_And_Restourants[index].country == place || place == "")) {
+        if ((Hotels_And_Restourants[index].role == type || type == "") && 
+            (Hotels_And_Restourants[index].city == place || Hotels_And_Restourants[index].country == place || place == "") && 
+            (Hotels_And_Restourants[index].activity == active || active == "")) {
     
             let figure = document.createElement("figure")
             figure.setAttribute("class", "fig_2")
