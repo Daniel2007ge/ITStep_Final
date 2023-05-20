@@ -1,4 +1,4 @@
-function func1() {    
+function filter() {    
     window.open("Hotels.html")
     localStorage.setItem("type", document.getElementsByTagName("select")[0].value)
     localStorage.setItem("place", document.getElementsByTagName("input")[0].value)

@@ -1,4 +1,4 @@
-let div = document.getElementsByTagName("div")[0]
+let div = document.getElementsByTagName("div")[1]
 let type = localStorage.getItem("type")
 let place = localStorage.getItem("place")
 let active = localStorage.getItem("active")
@@ -95,4 +95,12 @@ function func1(element) {
     window.open("Full_Info.html")
     window.close("Hotels.html")
     localStorage.setItem("num1", element)
+}
+
+function filter() {    
+    window.open("Hotels.html")
+    localStorage.setItem("type", document.getElementsByTagName("select")[0].value)
+    localStorage.setItem("place", document.getElementsByTagName("input")[0].value)
+    localStorage.setItem("active", document.getElementsByTagName("select")[1].value)
+    window.close("Hotels.html")
 }
