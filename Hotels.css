@@ -27,11 +27,19 @@ h1{
 }
 
 #search{
-    width: 44.3vw;
+    width: 620px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#search>img{
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 5px;
 }
 
 #search>button{
@@ -39,4 +47,44 @@ h1{
     width: 30px;
     height: 30px;
     border-radius: 10px;
+}
+
+#locate{
+    float: left;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #FFA800;
+}
+
+@media screen and (max-width: 685px){
+    div{
+        display: grid;
+        justify-items: center;
+    }
+
+    #search{
+        width: 400px;
+    }
+
+    #search>select{
+        width: 80%;
+    }
+
+    #search>input{
+        width: calc(78% + 2px);
+    }
+
+    #locate{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #search>img{
+        margin-left: 10px;
+    }
+
+    #search>button{
+        position: absolute;
+    }
 }
