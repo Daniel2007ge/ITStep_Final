@@ -88,3 +88,9 @@ h1{
         position: absolute;
     }
 }
+
+@media screen and (max-width: 424px){    
+    #search{
+        width: 300px;
+    }
+}
