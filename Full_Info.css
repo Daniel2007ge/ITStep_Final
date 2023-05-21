@@ -117,6 +117,15 @@ section{
     display: none;
 }
 
+section>button{
+    margin-top: 280px;
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+
 @media screen and (max-width: 1000px){    
     body{
         display: grid;
@@ -174,6 +183,21 @@ section{
         width: 100%;
         padding: 16px 0px;
         margin: 0px;
+    }
+
+    section{
+        width: 0px;
+        height: 0px;
+        margin: 0px;
+        display: none;
+    }
+
+    section>button{
+        height: 0px;
+        width: 0px;
+        border: 0px;
+        margin: 0px;
+        display: none;
     }
 }
 

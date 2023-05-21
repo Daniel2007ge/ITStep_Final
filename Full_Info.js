@@ -46,12 +46,6 @@ for (let index = 0; index < card[x].rooms; index++) {
     div2.append(img3)
 }
 
-for (let i = 0; i < Activities.length; i++) {
-    if(Activities[i].title == card[x].activity){
-        document.getElementById("Activity").setAttribute("src", Activities[i].img)
-    }
-}
-
 function func1(e) {
     let e2 = e + 1
     document.getElementsByTagName("section")[0].style.display = "flex"
