@@ -7,7 +7,7 @@ img1.setAttribute("src", card[x].stars)
 let img2 = document.getElementsByTagName("img")[1]
 img2.setAttribute("src", card[x].img)
 
-let div = document.getElementsByTagName("div")[0]
+let div = document.getElementById("info")
 div.innerHTML = card[x].description
 
 let h1 = document.createElement("h1")
@@ -46,11 +46,11 @@ for (let index = 0; index < card[x].rooms; index++) {
     div2.append(img3)
 }
 
-for (let i = 0; i < Activities.length; i++) {
-    if(Activities[i].title == card[x].activity){
-        document.getElementById("Activity").setAttribute("src", Activities[i].img)
-    }
-}
+// for (let i = 0; i < Activities.length; i++) {
+//     if(Activities[i].title == card[x].activity){
+//         document.getElementById("Activity").setAttribute("src", Activities[i].img)
+//     }
+// }
 
 function func1(e) {
     let e2 = e + 1
@@ -58,4 +58,8 @@ function func1(e) {
     let newImg = document.getElementById("new")
     newImg.setAttribute("src", card[x].roomPhoto+e2+".png")
     document.getElementsByTagName("html")[0].scrollTop = 855
+}
+
+function ShowHide() {
+    $("#slide").slideToggle(500)
 }

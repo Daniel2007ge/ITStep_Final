@@ -4,8 +4,8 @@ body{
     font-family: "Malgun Gothic";
 }
 
-/* nav{
-    width: 96vw;
+nav{
+    width: 90vw;
     display: flex;
     justify-content: center;
     margin-top: 0px;
@@ -14,8 +14,12 @@ body{
     margin-right: auto;
 }
 
+nav>button{
+    display: none;
+}
+
 a{
-    width: calc(100% / 12);
+    width: 8.3%;
     padding: 10px 0px;
     margin: 0px 30px;
     text-align: center;
@@ -29,7 +33,11 @@ a{
 a:hover{
     border: 1px solid #7B61FF;
     transition: all 0.5s ease;
-} */
+}
+
+#slide, #slide>a{
+    display: none;
+}
 
 #star{
     width: 250px;
@@ -131,6 +139,41 @@ section{
 
     #container{
         padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 936px){
+    body{
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    nav>a{
+        display: none;
+    }
+
+    nav>button{
+        display: block;
+    }
+
+    #slide{
+        width: 100vw;
+        height: 377px;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-top: 146px;
+        display: grid;
+        justify-items: center;
+        position: absolute;
+    }
+    
+    #slide>a{
+        display: block;
+        color: white;
+        text-align: center;
+        border: none;
+        width: 100%;
+        padding: 16px 0px;
+        margin: 0px;
     }
 }
 
