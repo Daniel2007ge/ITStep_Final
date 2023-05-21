@@ -28,8 +28,8 @@ var Hotels_And_Restourants = [
                     antique-style furnishings.</p>
                     <p>Breakfast is available. There's also a refined restaurant with a sea-view 
                     terrace, as well as a cozy bar. Other amenities include an outdoor pool and 
-                    landscaped gardens, plus a gym (with some outdoor equipment) and a spa. Kids 
-                    age 16 and older are welcome.</p>`
+                    landscaped gardens, plus a gym and a spa. There is also <strong>diving activity.
+                    </strong> Kids age 16 and older are welcome.</p>`
     },
 
     {
@@ -54,8 +54,8 @@ var Hotels_And_Restourants = [
                     Room service is available.</p>
                     <p>Breakfast is served in an elegant restaurant which has a terrace; there's 
                     also a casual trattoria, a posh bar, a beachfront bistro and a poolside 
-                    pizzeria. Other amenities include 3 pools, a private beach and a marina, plus 
-                    a spa, a fitness room and a tennis court.</p>`
+                    pizzeria. There is <strong>rafting activity</strong> 3 pools, a 
+                    private beach and a marina, plus a spa, a fitness room and a tennis court.</p>`
     },
 
     {
@@ -79,7 +79,8 @@ var Hotels_And_Restourants = [
                     furnished courtyards with lake views. A 24-hour butler service is available.</p>
                     <p>Amenities include 2 upscale restaurants and a bar with lake views; private 
                     outdoor lakeside dining is available. There's also a gym, a spa and an outdoor 
-                    pool, plus a business centre, meeting rooms and event space.</p>`
+                    pool, plus a business centre, meeting rooms and <strong>wingsuit surfing activity</strong> 
+                    event.</p>`
     },
 
     {
@@ -105,7 +106,8 @@ var Hotels_And_Restourants = [
                     service is available.</p>
                     <p>Local transfers in a Mercedes shuttle are complimentary. Other amenities 
                     include a terrace with fire pits, plus a private cinema, a 24-hour gym and 
-                    direct access to Spago, an acclaimed restaurant. Secure parking is available.</p>`
+                    direct access to Spago, an acclaimed restaurant. <strong>Mountain biking activity</strong> 
+                    is available.</p>`
     },
 
     {
@@ -130,7 +132,7 @@ var Hotels_And_Restourants = [
                     all-day snacks and afternoon appetizers.</p>
                     <p>There's a complimentary 24-hour airport shuttle. Other amenities include a 
                     funky bistro-style restaurant, a bar, a Starbucks coffee shop, an outdoor pool 
-                    and a gym.</p>`
+                    and an <strong>ice climbing activity</strong>.</p>`
     },
 
     {
@@ -149,15 +151,12 @@ var Hotels_And_Restourants = [
         //Paragliding, Bungee jumping, Roller-skating, Skateboarding
         description: `<p>Set within the Vancouver International Airport, this upscale hotel 
                     is 1 km from YVR-Airport Station train station and 9 km from VanDusen 
-                    Botanical Garden.</p>
-                    <p>The chic rooms and suites offer flat-screens and coffeemakers, plus 
-                    floor-to-ceiling soundproofed windows with runway, mountain or ocean views. 
-                    They also come with minibars and Wi-Fi, while upgraded rooms and suites add 
-                    access to a lounge with complimentary breakfast, plus whirlpool tubs, 
-                    Nespresso machines and free Wi-Fi.</p>
+                    Botanical Garden. The chic rooms and suites offer flat-screens and coffeemakers, plus 
+                    floor-to-ceiling soundproofed windows with runway. They also come with minibars and Wi-Fi, 
+                    while upgraded rooms and suites add access to a lounge with complimentary breakfast, 
+                    plus whirlpool tubs and <strong>snowmobile racing activity.</strong></p>
                     <p>Amenities include a sophisticated restaurant and bar, an indoor pool, a 
-                    fitness center with a spa, as well as a business center and meeting rooms. 
-                    Parking is extra.</p>`
+                    fitness center with a spa, as well as a business center and meeting rooms.</p>`
     },
 
     {
@@ -182,7 +181,7 @@ var Hotels_And_Restourants = [
                     <p>This hotel is certainly not a budget option. It consists of 35 new 
                     luxurious villas, each with its own private garden and immaculate 
                     design. The interiors are modern but loosely inspired by the style of 
-                    the old Chinese mansion. They’re all perfectly indulgent; however, if 
+                    the old Chinese mansion. There are <strong>sailing activity</strong>; however, if 
                     you really want to spoil yourself, the Pool Pavilion features a heated 
                     outdoor swimming pool.</p>`
     },
@@ -209,9 +208,9 @@ var Hotels_And_Restourants = [
                     tea and coffeemakers. Some have Eiffel Tower and/or river 
                     views, and upgraded rooms add balconies or terraces. Lavish 
                     suites come with living rooms; some provide dining rooms.</p>
-                    <p>There are 3 posh dining options, including an acclaimed 
-                    restaurant, as well as a chic bar. There's also a spa with an 
-                    indoor pool and a gym.</p>`
+                    <p>There are <strong>roller-skating activity,</strong> 3 posh dining 
+                    options, including an acclaimed restaurant, as well as a chic bar. 
+                    There's also a spa with an indoor pool and a gym.</p>`
     },
 
     {
