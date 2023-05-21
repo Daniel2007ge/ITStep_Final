@@ -117,14 +117,26 @@ section{
     display: none;
 }
 
-section>button{
-    margin-top: 280px;
+/* .section{
+    width: 300px;
+    margin: auto;
+}
+
+.section>button{
     height: 40px;
     width: 40px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 5px;
+    transition: all 0.5s ease;
 }
+
+.section>button:hover{
+    box-shadow: 0 0 10px 1px #7B61FF;
+    transition: all 0.5s ease;
+} */
 
 @media screen and (max-width: 1000px){    
     body{
@@ -185,20 +197,20 @@ section>button{
         margin: 0px;
     }
 
-    section{
+    /* section, .section{
         width: 0px;
         height: 0px;
         margin: 0px;
         display: none;
     }
 
-    section>button{
+    .section>button{
         height: 0px;
         width: 0px;
         border: 0px;
         margin: 0px;
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 624px){
