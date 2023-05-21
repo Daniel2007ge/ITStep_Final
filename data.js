@@ -25,7 +25,7 @@ var Hotels_And_Restourants = [
                     Rufolo.</p>
                     <p>The plush, upscale rooms come with Wi-Fi, flat-screen TVs and sea views; 
                     some have terraces. Most suites add separate living rooms, dining rooms and/or 
-                    antique-style furnishings. Room service is available.</p>
+                    antique-style furnishings.</p>
                     <p>Breakfast is available. There's also a refined restaurant with a sea-view 
                     terrace, as well as a cozy bar. Other amenities include an outdoor pool and 
                     landscaped gardens, plus a gym (with some outdoor equipment) and a spa. Kids 
@@ -130,8 +130,7 @@ var Hotels_And_Restourants = [
                     all-day snacks and afternoon appetizers.</p>
                     <p>There's a complimentary 24-hour airport shuttle. Other amenities include a 
                     funky bistro-style restaurant, a bar, a Starbucks coffee shop, an outdoor pool 
-                    and a gym. There's also a business center and 21,000 sq ft of meeting space. 
-                    Breakfast and parking are extra.</p>`
+                    and a gym.</p>`
     },
 
     {
@@ -212,7 +211,7 @@ var Hotels_And_Restourants = [
                     suites come with living rooms; some provide dining rooms.</p>
                     <p>There are 3 posh dining options, including an acclaimed 
                     restaurant, as well as a chic bar. There's also a spa with an 
-                    indoor pool and a gym.<br><br><br><br><br></p>`
+                    indoor pool and a gym.</p>`
     },
 
     {
@@ -234,10 +233,7 @@ var Hotels_And_Restourants = [
                     grandeur, transporting you to an era of extravagance and opulence.</p>
                     <p>The menu at this restaurant is an exquisite selection of French 
                     delicacies, crafted to perfection by renowned chefs with years of culinary 
-                    expertise. From the succulent meat dishes to the light and fluffy soufflés, 
-                    each dish is a work of art, designed to ignite your senses and tantalize your 
-                    taste buds. The chef's special, a delectable lobster bisque served with a side 
-                    of freshly baked baguette, is a must-try for all seafood lovers.</p>`
+                    expertise. From the succulent meat dishes to the light.</p>`
     },
 
     {
@@ -259,9 +255,7 @@ var Hotels_And_Restourants = [
                     includes classics such as carbonara, spaghetti alle vongole, and pizza margherita. 
                     Each dish is made with the freshest ingredients, hand-selected from local markets. 
                     The wine list, too, is a tribute to Italy's rich culinary heritage, with an extensive 
-                    selection of regional and national wines. Whether you're a tourist or a local, this 
-                    restaurant is a must-visit destination for anyone looking for an authentic 
-                    Italian dining experience.</p>`
+                    selection of regional and national wines.</p>`
     },
 
     {
@@ -279,8 +273,7 @@ var Hotels_And_Restourants = [
                     delectable array of fresh sushi and sashimi. The restaurant's chefs take great 
                     care in selecting the best seafood available in the market, ensuring that every 
                     dish served here is of the highest quality. To complement its delicious dishes, 
-                    the restaurant also offers a range of sake and Japanese beer options, making it a 
-                    perfect spot for an intimate dinner or a night out with friends.</p>
+                    the restaurant also offers a range of sake and Japanese beer options.</p>
                     <p>Narisawa's exceptional service and traditional Japanese ambiance make it a 
                     must-visit restaurant in Tokyo. From its mouth-watering seafood to its cozy and 
                     comfortable setting, Narisawa is undoubtedly one of the best restaurants in the 

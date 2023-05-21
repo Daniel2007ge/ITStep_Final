@@ -4,7 +4,7 @@ body{
     font-family: "Malgun Gothic";
 }
 
-nav{
+/* nav{
     width: 96vw;
     display: flex;
     justify-content: center;
@@ -29,11 +29,11 @@ a{
 a:hover{
     border: 1px solid #7B61FF;
     transition: all 0.5s ease;
-}
+} */
 
 #star{
     width: 250px;
-    margin-left: 30px;
+    margin-left: 2vw;
     margin-bottom: 20px;
     float: none;
 }
@@ -41,13 +41,14 @@ a:hover{
 #HR{
     float: left;
     width: 314px;
-    height: auto;
+    height: 377px;
 }
 
-div{
-    width: 50vw;
-    float: left;
-    margin-left: 40px;
+#info{
+    width: 60vw;
+    height: 390px;
+    margin: 0px;
+    padding-left: 400px;
 }
 
 h1{
@@ -65,19 +66,21 @@ button{
     float: left;
 }
 
+#footer{
+    display: flex;
+}
+
 b{
     font-size: 22px;
     color: #7B61FF;
     padding-left: 40px;
     margin-top: 10px;
-    position: absolute;
 }
 
 span{
     font-size: 22px;
-    padding-left: 150px;
+    padding-left: 45px;
     margin-top: 10px;
-    position: absolute;
 }
 
 svg{
@@ -85,18 +88,15 @@ svg{
 }
 
 #container{
-    height: 200px;
+    height: auto;
     width: 100%;
-    margin-top: 400px;
     margin-left: -10px;
-    float: none;
 }
 
 #container>img{
     height: 150px;
     width: 220px;
     padding: 10px;
-    float: left;
 }
 
 section{
@@ -104,44 +104,55 @@ section{
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 190px;
     margin-bottom: 30px;
     justify-content: center;
     display: none;
 }
 
-@media screen and (max-width: 898px){    
-    div{
-        float: none;
-        margin-top: 400px;
-        width: 80%;
-    }
-
-    #star{
-        margin-left: 30%;
+@media screen and (max-width: 1000px){    
+    body{
+        display: grid;
+        justify-items: center;
     }
 
     #HR{
-        margin-left: 25%;
+        float: none;
+    }
+
+    #star{
+        margin-bottom: 0px;
+    }
+
+    #info{
+        width: 80vw;
+        padding-left: 0px;
+        padding-top: 50px;
     }
 
     #container{
-        margin-top: 100px;
+        padding-top: 100px;
     }
 }
 
-@media screen and (max-width: 525px){    
-    div{
-        float: none;
-        margin-top: 400px;
-        width: 80%;
+@media screen and (max-width: 624px){
+    b, span{
+        padding-left: 0px;
     }
 
-    #star{
-        margin-left: 24%;
+    #footer{
+        display: grid;
+        justify-items: center;
     }
 
-    #HR{
-        margin-left: 15%;
+    #container{
+        padding-top: 260px;
+        display: grid;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 394px){
+    #container{
+        padding-top: 340px;
     }
 }
