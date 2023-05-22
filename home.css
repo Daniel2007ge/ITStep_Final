@@ -95,6 +95,11 @@ input{
     border-radius: 10px;
 }
 
+#search>img{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
 #search>button{
     width: 50px;
     height: 50px;
@@ -407,6 +412,48 @@ span{
 }
 
 @media screen and (max-width: 650px){
+    #search{
+        margin-top: 50px;
+        width: 400px;
+        height: 200px;
+    }
+
+    #search>select{
+        width: 330px;
+    }
+
+    #search>input{
+        width: 324px;
+    }
+
+    #search>img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #lastSelect{
+        margin-left: 0px;
+    }
+
+    svg{
+        margin-left: 10px;
+    }
+
+    .fig_3{
+        display: grid;
+        justify-items: center;
+    }
+
+    .fig_3>div{
+        margin-top: 25px;
+        margin-left: 2vw;
+        text-align: center;
+    }
+
+    .fig_3>div>footer{
+        margin-top: 25px;
+    }
+
     #footer>div:first-child{
         display: none;
     }
