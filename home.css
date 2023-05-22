@@ -505,3 +505,21 @@ span{
         margin-left: -350px;
     }
 }
+
+@media screen and (max-width: 538px){
+    .fig_5>img{
+        margin-left: 50px;
+    }
+
+    #footer>div{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 459px){
+    .fig_5>img{
+        margin-left: 40px;
+        width: 75%;
+    }
+}
