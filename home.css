@@ -325,48 +325,57 @@ span{
     box-shadow: 0 0 15px white inset;
 }
 
-@media screen and (max-width: 1296px){
-    #section_1{
-        width: 70%;
-        height: 440px;
-        margin: auto;
-        display: block;
+@media screen and (max-width: 1330px){
+    #footer>div:last-child{
+        display: none;
     }
 
-    #section_2{
-        width: 75%;
-        margin: auto;
-        display: block;
-        padding: 0px;
+    header>.logo{
+        margin-right: 0px;
     }
 
-    #section_2>div, .fig2{
-        float: left;
+    nav{
+        justify-content: left;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .fig_4:last-child{
+        display: none;
     }
 
-    #section_3{
-        display: grid;
-        justify-items: center;
-    }
-
-    #section_4{
-        width: 75%;
-        display: block;
-        margin: auto;
-        padding-top: 123px;
-    }
-
-    .fig_4{
-        float: left;
-    }
-
-    #footer{
+    .fig_3:last-child{
         display: none;
     }
 }
 
-/* @media screen and (max-width: 1110px){
-    #sec2_h2{
-        margin-top: 200px;
+@media screen and (max-width: 1216px){
+    #section_1>div:last-child, #section_2>div:last-child{
+        display: none;
     }
-} */
+
+    a{
+        width: 10vw;
+    }
+
+    nav{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1099px){
+    .fig_5{
+        display: grid;
+        justify-items: center;
+    }
+
+    .fig_5>div{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    #section_1>div:nth-child(5){
+        display: none;
+    }
+}
