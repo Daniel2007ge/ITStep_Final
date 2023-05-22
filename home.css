@@ -379,3 +379,40 @@ span{
         display: none;
     }
 }
+
+@media screen and (max-width: 950px){
+    #section_1>div:nth-child(4), #section_2>div:nth-child(3), .fig_4:nth-child(3){
+        display: none;
+    }
+
+    nav{
+        justify-content: right;
+    }
+
+    nav>a{
+        width: 0px;
+        display: none;
+    }
+
+    #join{
+        display: block;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 893px){
+    #footer>div{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #footer>div:first-child{
+        display: none;
+    }
+
+    #footer>div{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
