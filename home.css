@@ -412,6 +412,10 @@ span{
 }
 
 @media screen and (max-width: 650px){
+    #btn_1>svg{
+        margin-left: 0px;
+    }
+
     #search{
         margin-top: 50px;
         width: 400px;
@@ -431,12 +435,26 @@ span{
         margin-right: 10px;
     }
 
+    #search>button{
+        float: left;
+        margin-left: 190px;
+        margin-top: 8px;
+    }
+
+    #search>button>svg{
+        margin-left: 0px;
+    }
+
     #lastSelect{
         margin-left: 0px;
     }
 
     svg{
         margin-left: 10px;
+    }
+
+    .fig_2>footer>svg{
+        margin-left: 0px;
     }
 
     .fig_3{
@@ -461,5 +479,29 @@ span{
     #footer>div{
         padding-left: 10vw;
         padding-right: 10vw;
+    }
+}
+
+@media screen and (max-width: 630px){
+    #section_1, #section_2, #section_4{
+        display: grid;
+        justify-items: center;
+    }
+
+    .fig_5{
+        margin-left: 0px;
+    }
+
+    .fig_5>div{
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 565px){
+    #btn_hotel, #btn_travel{
+        margin-top: 110px;
+        margin-bottom: 10px;
+        float: none;
+        margin-left: -350px;
     }
 }
