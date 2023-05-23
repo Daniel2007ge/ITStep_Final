@@ -15,6 +15,12 @@ header{
     margin-bottom: 60px;
 }
 
+header>div{
+    width: 100%;
+    margin: 90px auto;
+    text-align: center;
+}
+
 .logo{
     width: 80px;
     height: auto;
@@ -119,6 +125,10 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.sec_h2{
+    float: left;
 }
 
 #section_1>div{
@@ -377,6 +387,10 @@ span{
     .fig_5>div{
         margin-left: 50px;
     }
+
+    .fig_5>div>br{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1030px){
@@ -399,7 +413,7 @@ span{
         display: none;
     }
 
-    #join{
+    #join, #User{
         display: block;
         margin-right: 30px;
     }
@@ -468,6 +482,10 @@ span{
         text-align: center;
     }
 
+    .fig_3>div>br{
+        display: none;
+    }
+
     .fig_3>div>footer{
         margin-top: 25px;
     }
@@ -520,9 +538,71 @@ span{
 @media screen and (max-width: 459px){
     .fig_5>img{
         margin-left: 40px;
-        width: 75%;
+        width: 320px;
     }
 }
 
 @media screen and (max-width: 410px){
+    #search{
+        width: 98vw;
+    }
+
+    #search>select{
+        width: 82vw;
+    }
+
+    #search>input{
+        width: 80.5vw;
+    }
+
+    #search>button{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2, .sec_h2{
+        width: 100vw;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #btn_active{
+        margin-bottom: 10px;
+        float: none;
+    }
+
+    #btn_hotel, #btn_travel, #btn_active{
+        margin-top: 0px;
+        margin-left: 40vw;
+    }
+}
+
+@media screen and (max-width: 345px){
+    header{
+        display: grid;
+        justify-items: left;
+    }
+
+    header>div{
+        margin-top: 0px;
+    }
+
+    #join{
+        margin-left: 10px;
+    }
+
+    #footer{
+        padding-top: 30px;
+        display: grid;
+        justify-items: center;
+        height: 100%;
+    }
+
+    #footer>div{
+        padding: 0px;
+        text-align: center;
+    }
 }
