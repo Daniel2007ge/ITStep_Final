@@ -38,10 +38,19 @@ nav{
 a{
     padding: 20px 0px;
     font-size: 15px;
-    text-decoration: none;
+    text-decoration: underline;    
+    text-underline-offset: -30px;  
+    text-decoration-color: rgba(0, 0, 0, 0);
     min-width: 100px;
     width: 140px;
     color: gray;
+    transition: all 1s ease;
+}
+
+a:hover{
+    text-underline-offset: 20px;
+    text-decoration-color: white;
+    transition: all 1s ease;
 }
 
 #join{
@@ -59,6 +68,12 @@ a{
     border-radius: 0px;
     box-shadow: 0 0 15px white inset;
     transition: all 0.5s ease;
+}
+
+h1{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 40px;
 }
 
 #btn_1{
@@ -199,7 +214,7 @@ button:hover{
 }
 
 .fig_3{
-    min-width: 300px;
+    width: 300px;
     width: 700px;
 }
 
@@ -594,6 +609,46 @@ span{
         margin-left: 10px;
     }
 
+    #User{
+        margin-left: 35px;
+    }
+    
+    #search{
+        width: 90vw;
+    }
+
+    #search>select{
+        width: 73vw;
+    }
+
+    #search>input{
+        width: 71.5vw;
+    }
+
+    #section_1, #section_2, #section_3, #section_4, #section_5{
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section_2>div, .fig_2, .fig_3, .fig_3>div{
+        width: 260px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .fig_3>div>footer{
+        display: none;
+    }
+
+    .fig_5>img{
+        width: 260px;
+    }
+
+    #btn_hotel, #btn_travel, #btn_active{
+        margin-left: 35vw;
+    }
+
     #footer{
         padding-top: 30px;
         display: grid;
@@ -604,5 +659,27 @@ span{
     #footer>div{
         padding: 0px;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 323px){
+    #search{
+        width: 85vw;
+    }
+
+    #search>select{
+        width: 62vw;
+    }
+
+    #search>input{
+        width: 59.5vw;
+    }
+}
+
+@media screen and (max-width: 299px){
+    h1{
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 40px;
     }
 }
