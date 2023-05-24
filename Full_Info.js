@@ -61,7 +61,15 @@ function func1(e) {
     // document.getElementsByTagName("button")[3].setAttribute("onclick", "Next("+e2+")")
 }
 
+// $("#slide").slideUp(0)
+// function ShowHide() {
+//     $("#slide").slideToggle(500)
+// }
+
 function ShowHide() {
+    for (let index = 0; index < 7; index++) {
+        document.getElementsByClassName("slide_a")[index].style.display = "block"
+    }
     $("#slide").slideToggle(500)
 }
 

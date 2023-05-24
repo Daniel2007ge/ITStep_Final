@@ -3,6 +3,10 @@ body{
     font-family: "Malgun Gothic";
 }
 
+#slide, #slide>a{
+    display: none;
+}
+
 header{
     height: 700px;
     width: 100%;
@@ -47,7 +51,7 @@ a{
     transition: all 1s ease;
 }
 
-a:hover{
+nav>a:hover{
     text-underline-offset: 20px;
     text-decoration-color: white;
     transition: all 1s ease;
@@ -61,6 +65,7 @@ a:hover{
     height: 10px;
     margin-top: 10px;
     padding-top: 10px;
+    text-decoration: none;
     transition: all 0.5s ease;
 }
 
@@ -68,6 +73,34 @@ a:hover{
     border-radius: 0px;
     box-shadow: 0 0 15px white inset;
     transition: all 0.5s ease;
+}
+
+#User{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    line-height: 55px;
+    margin-top: 5px;
+    box-shadow: 0 0 15px white inset;
+}
+
+#btn_nav{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    display: none;
+}
+
+#btn_nav:hover{
+    box-shadow: 0 0 10px 1px white;
 }
 
 h1{
@@ -343,18 +376,6 @@ span{
     margin-top: 3px;
 }
 
-#User{
-    border: 1px solid white;
-    border-radius: 100%;
-    padding: 0px;
-    width: 60px;
-    height: 60px;
-    color: white;
-    line-height: 55px;
-    margin-top: 5px;
-    box-shadow: 0 0 15px white inset;
-}
-
 @media screen and (max-width: 1330px){
     #footer>div:last-child{
         display: none;
@@ -415,8 +436,30 @@ span{
 }
 
 @media screen and (max-width: 950px){
+    #slide{
+        width: 100%;
+        height: 377px;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-top: 70px;
+        justify-items: center;
+        position: absolute;
+    }
+    
+    #slide>a{
+        color: white;
+        text-align: center;
+        border: none;
+        width: 100%;
+        padding: 16px 0px;
+        margin: 0px;
+    }
+
     #section_1>div:nth-child(4), #section_2>div:nth-child(3), .fig_4:nth-child(3){
         display: none;
+    }
+
+    #btn_nav{
+        display: block;
     }
 
     nav{
@@ -603,6 +646,10 @@ span{
 
     header>div{
         margin-top: 0px;
+    }
+
+    #btn_nav{
+        margin-left: 37px;
     }
 
     #join{

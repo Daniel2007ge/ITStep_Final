@@ -17,3 +17,10 @@ function func2(index) {
         window.open("Activities.html")
     }
 }
+
+function ShowHide() {
+    for (let index = 0; index < 7; index++) {
+        document.getElementsByTagName("a")[index].style.display = "block"
+    }
+    $("#slide").slideToggle(500)
+}

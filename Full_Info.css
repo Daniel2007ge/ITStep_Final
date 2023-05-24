@@ -182,13 +182,13 @@ section{
         height: 377px;
         background-color: rgba(0, 0, 0, 0.8);
         margin-top: 146px;
-        display: grid;
+        /* display: none; */
         justify-items: center;
         position: absolute;
     }
     
     #slide>a{
-        display: block;
+        /* display: block; */
         color: white;
         text-align: center;
         border: none;
