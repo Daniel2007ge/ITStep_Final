@@ -1,3 +1,15 @@
+function funcOpen(e){
+    if (e == 0) {
+        localStorage.setItem("type", "hotel")
+
+    } else {
+        localStorage.setItem("type", "restaurant")
+    }
+    localStorage.setItem("place", "")
+    localStorage.setItem("active", "")
+    window.open("Hotels.html")
+}
+
 let x = localStorage.getItem("num1")
 let card = Hotels_And_Restourants
 

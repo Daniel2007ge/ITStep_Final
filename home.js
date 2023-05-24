@@ -5,6 +5,17 @@ function filter() {
     localStorage.setItem("active", document.getElementsByTagName("select")[1].value)
 }
 
+function funcOpen(e){
+    if (e == 0) {
+        localStorage.setItem("type", "hotel")
+    } else {
+        localStorage.setItem("type", "restaurant")
+    }
+    localStorage.setItem("place", "")
+    localStorage.setItem("active", "")
+    window.open("Hotels.html")
+}
+
 function func2(index) {
     if (index == 0) {
         window.open("Hotels.html")
