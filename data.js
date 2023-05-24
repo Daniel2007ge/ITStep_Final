@@ -303,6 +303,44 @@ var Hotels_And_Restourants = [
     },
 ]
 
+var Trips = [
+    {
+        img: "images/trip places/place1.png",
+        title: "East Village Ice Cream Crawl",
+        text: `We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. 
+                At each ice cream store we'll explore the story behind the business and see what makes the 
+                ice cream unique as you savor every…`,
+        date: "Today",
+        account: "Maria Philips",
+        comments: 2,
+        link: "https://earth.google.com/earth/d/1oLJpMTX34e-2rTzZ5G1tA6SEPrb91-O2?usp=sharing"
+    },
+
+    {
+        img: "images/trip places/place2.png",
+        title: "Brooklyn Bridge cinematic photo walk",
+        text: `This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always 
+                open to capture clients at different locations upon request for an additional charge.`,
+        date: "Today",
+        account: "James Calzoni",
+        comments: 17,
+        link: "https://earth.google.com/earth/d/1oLJpMTX34e-2rTzZ5G1tA6SEPrb91-O2?usp=sharing"
+    },
+
+    {
+        img: "images/trip places/place3.png",
+        title: "Travel trip through the Italy",
+        text: `I advise you to visit Italy. there is a tour thanks to which you can see the most 
+                popular and famous places in italy: Milan, Verona, Venice, Pisa, Florence, Rome 
+                and Syracuse`,
+        date: "Yesterday",
+        account: "Amelia Garcia",
+        comments: 0,
+        link: "https://earth.google.com/earth/d/1oLJpMTX34e-2rTzZ5G1tA6SEPrb91-O2?usp=sharing"
+    },
+]
+
+
 var Activities = [
     {title: "Sailing", img: "images/activities/1.png"},
     {title: "Climbing", img: "images/activities/2.png"},
