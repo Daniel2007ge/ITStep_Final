@@ -105,6 +105,7 @@ $("#login").click(function () {
     let input1 = $($("input")[0]).val()
     let input2 = $($("input")[1]).val()
     let check = false
+    let user=""
 
     fetch('http://kketelauri-001-site1.gtempurl.com/api/user/login', {
         method: 'POST',
@@ -117,31 +118,36 @@ $("#login").click(function () {
             "password": input2,
         })
     })
-    .then(response => response.json())
-    .then(response => console.log(JSON.stringify(response)))
+    .then(response => {response.json()})
+    
+    .then(response => {console.log(JSON.stringify(response))
+        user=JSON.stringify(response)
+        check=true
+        
 
-    for (let index = 0; index < Users.length; index++) {
-        if((input1 == Users[index].email) && (input2 == Users[index].password)){
-            check = true
-            localStorage.setItem("user", JSON.stringify(Users[index]))
+        for (let index = 0; index < Users.length; index++) {
+            if((input1 == Users[index].email) && (input2 == Users[index].password)){
+                check = true
+                localStorage.setItem("user", JSON.stringify(Users[index]))
+                $("span").animate({opacity: "0"})
+                window.open("UserPage.html")
+            }
+            if(input1 == ""){
+                check = true
+                $($("span")[0]).animate({opacity: "1"})
+                localStorage.removeItem("user")
+            }
+            if(input2 == "") {
+                check = true
+                $($("span")[1]).animate({opacity: "1"})
+                localStorage.removeItem("user")
+            }
+        }
+        if(!check){
             $("span").animate({opacity: "0"})
-            window.open("UserPage.html")
+            window.open("ErrorPage.html")
         }
-        if(input1 == ""){
-            check = true
-            $($("span")[0]).animate({opacity: "1"})
-            localStorage.removeItem("user")
-        }
-        if(input2 == "") {
-            check = true
-            $($("span")[1]).animate({opacity: "1"})
-            localStorage.removeItem("user")
-        }
-    }
-    if(!check){
-        $("span").animate({opacity: "0"})
-        window.open("ErrorPage.html")
-    }
+    })
 })
 
 
@@ -170,42 +176,43 @@ $("#signup").click(function () {
             "active": true})
     })
     .then(response => response.json())
-    .then(response => console.log(JSON.stringify(response)))
-
-    for (let index = 0; index < Users.length; index++) {
-        if ((inputName == Users[index].name) || (inputEmail == Users[index].email)) {
-            // $($("span")[0]).append("Account with that kind of name or email is already existed")
-            alert("Account with that kind of name or email is already existed")
-            check2 = true
+    .then(response => {console.log(JSON.stringify(response))
+        for (let index = 0; index < Users.length; index++) {
+            if ((inputName == Users[index].name) || (inputEmail == Users[index].email)) {
+                // $($("span")[0]).append("Account with that kind of name or email is already existed")
+                alert("Account with that kind of name or email is already existed")
+                check2 = true
+            }
+            if (inputName == "") {
+                check2 = true
+                $($("span")[2]).animate({opacity: "1"})
+                localStorage.removeItem("user")
+            }
+    
+            if (inputSurname == "") {
+                check2 = true
+                $($("span")[3]).animate({opacity: "1"})
+                localStorage.removeItem("user")
+            }
+    
+            if (inputEmail == "") {
+                check2 = true
+                $($("span")[4]).animate({opacity: "1"})
+                localStorage.removeItem("user")
+            }
+            if(inputPassword == ""){
+                check2 = true
+                $($("span")[5]).animate({opacity: "1"})
+                localStorage.removeItem("user")
+            }
         }
-        if (inputName == "") {
-            check2 = true
-            $($("span")[2]).animate({opacity: "1"})
-            localStorage.removeItem("user")
+    
+        if (!check2) {
+            Users.push({name: inputName, surname: inputSurname, email: inputEmail, password: inputPassword})
+            localStorage.setItem("user", JSON.stringify({name: inputName, surname: inputSurname, email: inputEmail, password: inputPassword}))
+            $("span").animate({opacity: "0"})
+            window.open("UserPage.html")
         }
-
-        if (inputSurname == "") {
-            check2 = true
-            $($("span")[3]).animate({opacity: "1"})
-            localStorage.removeItem("user")
-        }
-
-        if (inputEmail == "") {
-            check2 = true
-            $($("span")[4]).animate({opacity: "1"})
-            localStorage.removeItem("user")
-        }
-        if(inputPassword == ""){
-            check2 = true
-            $($("span")[5]).animate({opacity: "1"})
-            localStorage.removeItem("user")
-        }
-    }
-
-    if (!check2) {
-        Users.push({name: inputName, surname: inputSurname, email: inputEmail, password: inputPassword})
-        localStorage.setItem("user", JSON.stringify({name: inputName, surname: inputSurname, email: inputEmail, password: inputPassword}))
-        $("span").animate({opacity: "0"})
-        window.open("UserPage.html")
-    }
+    
+    })
 })
