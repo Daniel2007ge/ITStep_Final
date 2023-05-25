@@ -324,7 +324,7 @@ var Trips = [
         date: "Today",
         account: "James Calzoni",
         comments: 17,
-        link: "https://earth.google.com/earth/d/1oLJpMTX34e-2rTzZ5G1tA6SEPrb91-O2?usp=sharing"
+        link: ""
     },
 
     {
@@ -336,7 +336,7 @@ var Trips = [
         date: "Yesterday",
         account: "Amelia Garcia",
         comments: 0,
-        link: "https://earth.google.com/earth/d/1oLJpMTX34e-2rTzZ5G1tA6SEPrb91-O2?usp=sharing"
+        link: "https://earth.google.com/earth/d/1CPZRSd0B6inAEGA6-rx-RG1V68iW1U4U?usp=sharing"
     },
 ]
 
