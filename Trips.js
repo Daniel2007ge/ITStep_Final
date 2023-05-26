@@ -40,3 +40,28 @@ for (let index = 0; index < Trips.length; index++) {
 
     section.append(figure)
 }
+
+if (localStorage.getItem("user") != null) {
+    document.getElementsByClassName("home_tag_a")[0].setAttribute("href", "UserPage.html")
+    document.getElementsByClassName("home_tag_a")[1].setAttribute("href", "UserPage.html")
+}
+
+function funcOpen(e){
+    if (e == 0) {
+        localStorage.setItem("type", "hotel")
+    } else {
+        localStorage.setItem("type", "restaurant")
+    }
+    localStorage.setItem("place", "")
+    localStorage.setItem("active", "")
+    window.open("Hotels.html")
+    window.close("home.html")
+    window.close("UserPage.html")
+}
+
+function ShowHide() {
+    for (let index = 0; index < 7; index++) {
+        document.getElementsByClassName("slide_a")[index].style.display = "block"
+    }
+    $("#slide").slideToggle(500)
+}
