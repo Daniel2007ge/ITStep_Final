@@ -46,7 +46,7 @@ $("#login").click(function () {
     let input2 = $($("input")[1]).val()
     let check = false
 
-    fetch("http://kketelauri-001-site1.gtempurl.com/api/user/login/${type}", {
+    fetch("https://kketelauri-001-site1.gtempurl.com/api/user/login/${type}", {
         method: 'POST',
         // redirect: "error",
         headers: {
@@ -93,7 +93,7 @@ $("#signup").click(function () {
     let inputPassword = $($("input")[5]).val()
     let check2 = false
 
-    fetch("http://kketelauri-001-site1.gtempurl.com/api/user/adduser/${type}", {
+    fetch("https://kketelauri-001-site1.gtempurl.com/api/user/adduser/${type}", {
         method: 'POST',
         // redirect: "error",
         headers: {
