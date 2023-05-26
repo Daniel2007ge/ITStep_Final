@@ -46,7 +46,7 @@ $("#login").click(function () {
     let input2 = $($("input")[1]).val()
     let check = false
 
-    fetch('http://kketelauri-001-site1.gtempurl.com/api/user/login:splat', {
+    fetch('http://kketelauri-001-site1.gtempurl.com/api/user/login', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
@@ -55,7 +55,11 @@ $("#login").click(function () {
         body: JSON.stringify({ 
             "email": input1,
             "password": input2,
-        })
+        }),
+        redirect: {
+            from: 'http://kketelauri-001-site1.gtempurl.com/api/user/login',
+            to: 'http://kketelauri-001-site1.gtempurl.com/api/user/login:splat'
+        }
     })
     .then(response => response.json())
     .then(response => {
@@ -92,7 +96,7 @@ $("#signup").click(function () {
     let inputPassword = $($("input")[5]).val()
     let check2 = false
 
-    fetch('http://kketelauri-001-site1.gtempurl.com/api/user/adduser:splat', {
+    fetch('http://kketelauri-001-site1.gtempurl.com/api/user/adduser', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
@@ -105,7 +109,12 @@ $("#signup").click(function () {
             "email": inputEmail,
             "privateNumber": "",
             "password": inputPassword,
-            "active": true})
+            "active": true
+        }),
+        redirect: {
+            from: 'http://kketelauri-001-site1.gtempurl.com/api/user/adduser',
+            to: 'http://kketelauri-001-site1.gtempurl.com/api/user/adduser:splat'
+        }
     })
     .then(response => response.json())
     .then(response => {
