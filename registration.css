@@ -70,6 +70,23 @@ input :active, :hover, :focus {
     font-size: 15px;
 }
 
+b{
+    float: right;
+    margin-top: -50px;
+    color: #7B61FF;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+b:hover{
+    background-color: #7B61FF;
+    border: 1px solid #7B61FF;
+    color: white;
+}
+
 span{
     color: #7B61FF;
     float: left;
