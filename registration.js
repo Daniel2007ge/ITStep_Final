@@ -48,7 +48,7 @@ $("#login").click(function () {
 
     fetch("http://kketelauri-001-site1.gtempurl.com/api/user/login", {
         method: 'POST',
-        redirect: "http://kketelauri-001-site1.gtempurl.com/api/user/login:splat",
+        redirect: "manual",
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
@@ -95,7 +95,7 @@ $("#signup").click(function () {
 
     fetch("http://kketelauri-001-site1.gtempurl.com/api/user/adduser", {
         method: 'POST',
-        redirect: "http://kketelauri-001-site1.gtempurl.com/api/user/adduser:splat",
+        redirect: "manual",
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
