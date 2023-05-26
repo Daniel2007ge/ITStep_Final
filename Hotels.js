@@ -1,4 +1,4 @@
-let div = document.getElementsByTagName("div")[1]
+let div = document.getElementById("container")
 let type = localStorage.getItem("type")
 let place = localStorage.getItem("place")
 let active = localStorage.getItem("active")
@@ -103,4 +103,22 @@ function filter() {
     localStorage.setItem("place", document.getElementsByTagName("input")[0].value)
     localStorage.setItem("active", document.getElementsByTagName("select")[1].value)
     window.close("Hotels.html")
+}
+
+function funcOpen(e){
+    if (e == 0) {
+        localStorage.setItem("type", "hotel")
+    } else {
+        localStorage.setItem("type", "restaurant")
+    }
+    localStorage.setItem("place", "")
+    localStorage.setItem("active", "")
+    window.open("Hotels.html")
+}
+
+function ShowHide() {
+    for (let index = 0; index < 7; index++) {
+        document.getElementsByClassName("slide_a")[index].style.display = "block"
+    }
+    $("#slide").slideToggle(500)
 }
