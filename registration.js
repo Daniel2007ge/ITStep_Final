@@ -46,8 +46,9 @@ $("#login").click(function () {
     let input2 = $($("input")[1]).val()
     let check = false
 
-    fetch('http://kketelauri-001-site1.gtempurl.com/api/user/login', {
+    fetch("http://kketelauri-001-site1.gtempurl.com/api/user/login", {
         method: 'POST',
+        redirect: "http://kketelauri-001-site1.gtempurl.com/api/user/login:splat",
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
@@ -55,11 +56,7 @@ $("#login").click(function () {
         body: JSON.stringify({ 
             "email": input1,
             "password": input2,
-        }),
-        redirect: {
-            from: 'http://kketelauri-001-site1.gtempurl.com/api/user/login',
-            to: 'http://kketelauri-001-site1.gtempurl.com/api/user/login:splat'
-        }
+        })
     })
     .then(response => response.json())
     .then(response => {
@@ -96,8 +93,9 @@ $("#signup").click(function () {
     let inputPassword = $($("input")[5]).val()
     let check2 = false
 
-    fetch('http://kketelauri-001-site1.gtempurl.com/api/user/adduser', {
+    fetch("http://kketelauri-001-site1.gtempurl.com/api/user/adduser", {
         method: 'POST',
+        redirect: "http://kketelauri-001-site1.gtempurl.com/api/user/adduser:splat",
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
@@ -110,19 +108,11 @@ $("#signup").click(function () {
             "privateNumber": "",
             "password": inputPassword,
             "active": true
-        }),
-        redirect: {
-            from: 'http://kketelauri-001-site1.gtempurl.com/api/user/adduser',
-            to: 'http://kketelauri-001-site1.gtempurl.com/api/user/adduser:splat'
-        }
+        })
     })
     .then(response => response.json())
     .then(response => {
         console.log(JSON.stringify(response))
-            // if ((response.firstName == inputName) || (response.email == inputEmail)) {
-            //     alert("Account with that kind of name or email has already existed")
-            //     check2 = true
-            //}
 
         if (inputName == "") {
             check2 = true
