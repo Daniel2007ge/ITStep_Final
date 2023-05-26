@@ -35,6 +35,24 @@ a:hover{
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 div{
     width: 88vw;
     margin-left: auto;
@@ -95,6 +113,23 @@ h1{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1075px){
     nav>a{
         margin: 0px 5px;
@@ -140,6 +175,23 @@ h1{
         margin: 0px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 685px){
     div{

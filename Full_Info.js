@@ -8,7 +8,13 @@ function funcOpen(e){
     localStorage.setItem("place", "")
     localStorage.setItem("active", "")
     window.open("Hotels.html")
+    window.close("home.html")
+    window.close("UserPage.html")
 }
+
+
+
+
 
 let x = localStorage.getItem("num1")
 let card = Hotels_And_Restourants
@@ -60,6 +66,11 @@ for (let index = 0; index < card[x].rooms; index++) {
     div2.append(img3)
 }
 
+if (localStorage.getItem("user") != null) {
+    document.getElementsByClassName("home_tag_a")[0].setAttribute("href", "UserPage.html")
+    document.getElementsByClassName("home_tag_a")[1].setAttribute("href", "UserPage.html")
+}
+
 function func1(e) {
     let e2 = e + 1
     document.getElementsByTagName("section")[0].style.display = "flex"
@@ -73,10 +84,7 @@ function func1(e) {
     // document.getElementsByTagName("button")[3].setAttribute("onclick", "Next("+e2+")")
 }
 
-// $("#slide").slideUp(0)
-// function ShowHide() {
-//     $("#slide").slideToggle(500)
-// }
+
 
 function ShowHide() {
     for (let index = 0; index < 7; index++) {
@@ -84,6 +92,10 @@ function ShowHide() {
     }
     $("#slide").slideToggle(500)
 }
+
+
+
+
 
 // function Previous(num) { 
 //     if (num == 0) {

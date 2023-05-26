@@ -91,6 +91,11 @@ if (div.innerHTML == "") {
     div.innerHTML = "<h1>Nothing found for your request</h1>"
 }
 
+if (localStorage.getItem("user") != null) {
+    document.getElementsByClassName("home_tag_a")[0].setAttribute("href", "UserPage.html")
+    document.getElementsByClassName("home_tag_a")[1].setAttribute("href", "UserPage.html")
+}
+
 function func1(element) {
     window.open("Full_Info.html")
     window.close("Hotels.html")
@@ -114,6 +119,8 @@ function funcOpen(e){
     localStorage.setItem("place", "")
     localStorage.setItem("active", "")
     window.open("Hotels.html")
+    window.close("home.html")
+    window.close("UserPage.html")
 }
 
 function ShowHide() {
