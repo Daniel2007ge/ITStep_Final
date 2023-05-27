@@ -43,7 +43,7 @@ for (let index = 0; index < Trips.length; index++) {
 
 if (localStorage.getItem("user") != null) {
     document.getElementsByClassName("home_tag_a")[0].setAttribute("href", "UserPage.html")
-    document.getElementsByClassName("home_tag_a")[1].setAttribute("href", "UserPage.html")
+    document.getElementsByClassName("slide_a")[0].setAttribute("href", "UserPage.html")
 }
 
 function funcOpen(e){
