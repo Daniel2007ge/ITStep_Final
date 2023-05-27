@@ -9,9 +9,31 @@
     <title>2rism</title>
 </head>
 <body>
-    <input type="date">
+    <div id="parent">
+        <div id="slider">
+            <h1>Are you sure that you want to serve</h1><br>
+            <p id="name"></p><br>
+            <p id="time1">at: </p><br>
+            <p id="time2">for: </p><br>
+            <div id="btn_group">
+                <button onclick="Yes()">Yes</button>
+                <button onclick="No()" style="background-image: linear-gradient(to bottom right, #a103fc, #fc1403);">No</button>
+            </div>
+        </div>
+    </div>
+    <div id="dark"></div>
     <div id="map">
         <iframe width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="serving">
+        <label>Visit date:</label>
+        <input type="date">
+        <label>Check out date:</label>
+        <input type="date">
+        <label>Guests count:</label>
+        <input type="range" min="1" max="7" id="range" oninput="Input(this)">
+        <span></span>
+        <button onclick="serv()">serve</button>
     </div>
     <script src="data.js"></script>
     <script src="Serve.js"></script>
