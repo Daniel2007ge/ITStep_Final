@@ -104,3 +104,16 @@ a:hover{
         margin: 0px;
     }
 }
+
+@media screen and (max-width: 320px){
+    div{
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fig_4{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
