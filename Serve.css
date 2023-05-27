@@ -90,6 +90,11 @@ input{
     background-image: linear-gradient(to bottom right, #1f7bf2, #1ff262);
 }
 
+input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 label{
     margin: 0px 10px;
     font-size: 20px;
