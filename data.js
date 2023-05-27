@@ -13,7 +13,7 @@ var Hotels_And_Restourants = [
         roomPhoto: "images/hotels and restaurants/rooms/hotel1/",
         price: "2875 $",
         // activity: ["Sailing", "Diving", "Surfing"],
-        activity: "Diving",
+        activity: "Surfing",
         description: `<p>Set in a restored 17th-century monastery, this elegant clifftop hotel 
                     overlooking the sea is 1 km from the beach and 8 km from the gardens of Villa 
                     Rufolo.</p>
@@ -22,7 +22,7 @@ var Hotels_And_Restourants = [
                     antique-style furnishings.</p>
                     <p>Breakfast is available. There's also a refined restaurant with a sea-view 
                     terrace, as well as a cozy bar. Other amenities include an outdoor pool and 
-                    landscaped gardens, plus a gym and a spa. There is also <strong>diving activity.
+                    landscaped gardens, plus a gym and a spa. There is also <strong>surfing activity.
                     </strong> Kids age 16 and older are welcome.</p>`,
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.4149149252135!2d14.574462875266045!3d40.62073084319925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b942532a597cf%3A0x979ee9503661ffc9!2sMonastero%20Santa%20Rosa%20Hotel%20%26%20Spa!5e0!3m2!1ska!2sge!4v1685187667687!5m2!1ska!2sge"
     },
@@ -39,8 +39,7 @@ var Hotels_And_Restourants = [
         roomPhoto: "images/hotels and restaurants/rooms/hotel2/",
         price: "1517 $",
         // activity: ["Rafting", "Hiking", "Mountain biking"],
-        activity: "Rafting",
-        // Bungee jumping, Paragliding
+        activity: "Snowboarding",
         description: `<p>Overlooking Lake Como, this palatial art nouveau hotel is 250 m from 
                     the Villa Carlotta museum and botanic garden.</p>
                     <p>Formal rooms offer Wi-Fi, flat-screen TVs, minibars and park or lake views; 
@@ -49,7 +48,7 @@ var Hotels_And_Restourants = [
                     Room service is available.</p>
                     <p>Breakfast is served in an elegant restaurant which has a terrace; there's 
                     also a casual trattoria, a posh bar, a beachfront bistro and a poolside 
-                    pizzeria. There is <strong>rafting activity</strong> 3 pools, a 
+                    pizzeria. There is <strong>snowboarding activity</strong> 3 pools, a 
                     private beach and a marina, plus a spa, a fitness room and a tennis court.</p>`,
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5544.631714954015!2d9.223210055095498!3d45.984922398545905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478422cc02aefbef%3A0xdf6f075b79ed8c54!2sGrand%20Hotel%20Tremezzo!5e0!3m2!1ska!2sge!4v1685189235829!5m2!1ska!2sge"
     },
@@ -66,7 +65,7 @@ var Hotels_And_Restourants = [
         roomPhoto: "images/hotels and restaurants/rooms/hotel3/",
         price: "405 $",
         // activity: ["Roller-skating", "Skateboarding", "Wingsuit surfing"],        
-        activity: "Wingsuit surfing",
+        activity: "Skiing",
         description: `<p>Set amid gardens and overlooking Lake Pichola, this luxury hotel is 
                     2 km from both Jagdish Temple and the City Palace Museum.</p>
                     <p>In rooms are TVs, free Wi-Fi, DVD players and sitting areas, plus minibars and iPod docks. 
@@ -74,7 +73,7 @@ var Hotels_And_Restourants = [
                     furnished courtyards with lake views.</p>
                     <p>Amenities include 2 upscale restaurants and a bar with lake views; private 
                     outdoor lakeside dining is available. There's also a gym, a spa and an outdoor 
-                    pool, plus a business centre, meeting rooms and <strong>wingsuit surfing activity</strong> 
+                    pool, plus a business centre, meeting rooms and <strong>skiing activity</strong> 
                     event.</p>`,
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.3420902660323!2d73.66986627454496!3d24.577387556527665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396ccf804ea9e2f3%3A0x21eb806bf9fc7e9a!2sThe%20Oberoi%20Udaivilas%2C%20Udaipur!5e0!3m2!1ska!2sge!4v1685189294528!5m2!1ska!2sge"
     },
@@ -91,8 +90,7 @@ var Hotels_And_Restourants = [
         roomPhoto: "images/hotels and restaurants/rooms/hotel4/",
         price: "650 $",
         // activity: ["Roller-skating", "Climbing", "Mountain biking"],
-        activity: "Mountain biking",
-        //Skateboarding, Hiking, Wingsuit surfing, Paragliding
+        activity: "Hiking",
         description: `<p>This upscale, extended-stay hotel in the prestigious Golden Triangle 
                     area is 8 minutes on foot from the glitzy shops on Rodeo Drive and 6 miles 
                     from Santa Monica Airport.</p>
@@ -101,7 +99,7 @@ var Hotels_And_Restourants = [
                     living rooms with fireplaces, and townhouses have private entrances.</p>
                     <p>Local transfers in a Mercedes shuttle are complimentary. Other amenities 
                     include a terrace with fire pits, plus a private cinema, a 24-hour gym and 
-                    direct access to Spago, an acclaimed restaurant. <strong>Mountain biking activity</strong> 
+                    direct access to Spago, an acclaimed restaurant. <strong>hiking activity</strong> 
                     is available.</p>`,
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.0648615737427!2d-118.39954742507068!3d34.06785151690738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbfef00f57a3%3A0xaa20740290ea3602!2sAKA%20Beverly%20Hills!5e0!3m2!1ska!2sge!4v1685189387351!5m2!1ska!2sge"
     },
@@ -118,7 +116,7 @@ var Hotels_And_Restourants = [
         roomPhoto: "images/hotels and restaurants/rooms/hotel5/",
         price: "303 $",
         // activity: ["Skiing", "Snowboarding", "Ice climbing", "Snowmobile Racing"],
-        activity: "Ice climbing",
+        activity: "Climbing",
         //Paragliding, Bungee jumping, Roller-skating, Skateboarding
         description: `<p>Set 5.8 km from Vancouver International Airport, this unfussy business 
                     hotel is also 14.1 km from Vancouver Art Gallery.</p>
@@ -128,7 +126,7 @@ var Hotels_And_Restourants = [
                     all-day snacks and afternoon appetizers.</p>
                     <p>There's a complimentary 24-hour airport shuttle. Other amenities include a 
                     funky bistro-style restaurant, a bar, a Starbucks coffee shop, an outdoor pool 
-                    and an <strong>ice climbing activity</strong>.</p>`,
+                    and an <strong>Climbing activity</strong>.</p>`,
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10485549.827567061!2d-132.10745518362472!3d50.087247549847184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54860accf4ff91a5%3A0x490b7f4e91d53016!2sSheraton%20Vancouver%20Airport%20Hotel!5e0!3m2!1ska!2sge!4v1685189475949!5m2!1ska!2sge"
     },
 
@@ -145,7 +143,6 @@ var Hotels_And_Restourants = [
         price: "283 $",
         // activity: ["Skiing", "Snowboarding", "Ice climbing", "Snowmobile Racing"],
         activity: "Snowmobile Racing",
-        //Paragliding, Bungee jumping, Roller-skating, Skateboarding
         description: `<p>Set within the Vancouver International Airport, this upscale hotel 
                     is 1 km from YVR-Airport Station train station and 9 km from VanDusen 
                     Botanical Garden. The chic rooms and suites offer flat-screens and coffeemakers, plus 
@@ -347,16 +344,16 @@ var Activities = [
     {title: "Climbing", img: "images/activities/2.png"},
     {title: "Skiing", img: "images/activities/3.png"},
     {title: "Hiking", img: "images/activities/4.png"},
-    {title: "Skateboarding", img: "images/activities/5.png"},
+    // {title: "Skateboarding", img: "images/activities/5.png"},
     {title: "Snowboarding", img: "images/activities/6.png"},
     {title: "Roller-skating", img: "images/activities/7.png"},
-    {title: "Mountain biking", img: "images/activities/8.png"},
-    {title: "Wingsuit surfing", img: "images/activities/9.png"},
-    {title: "Bungee jumping", img: "images/activities/10.png"},
-    {title: "Ice climbing", img: "images/activities/11.png"},
-    {title: "Diving", img: "images/activities/12.png"},
-    {title: "Paragliding", img: "images/activities/13.png"},
-    {title: "Rafting", img: "images/activities/14.png"},
+    // {title: "Mountain biking", img: "images/activities/8.png"},
+    // {title: "Wingsuit surfing", img: "images/activities/9.png"},
+    // {title: "Bungee jumping", img: "images/activities/10.png"},
+    // {title: "Ice climbing", img: "images/activities/11.png"},
+    // {title: "Diving", img: "images/activities/12.png"},
+    // {title: "Paragliding", img: "images/activities/13.png"},
+    // {title: "Rafting", img: "images/activities/14.png"},
     {title: "Surfing", img: "images/activities/15.png"},
     {title: "Snowmobile Racing", img: "images/activities/16.png"},
 ]
