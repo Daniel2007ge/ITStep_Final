@@ -1,5 +1,3 @@
-localStorage.setItem("user", '{firstName: "Daniel"}')
-
 function filter() {    
     window.open("Hotels.html")
     localStorage.setItem("type", document.getElementsByTagName("select")[0].value)
