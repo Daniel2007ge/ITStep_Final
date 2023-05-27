@@ -194,7 +194,7 @@ var Hotels_And_Restourants = [
         role: "hotel",
         rooms: 7,
         roomPhoto: "images/hotels and restaurants/rooms/hotel8/",  
-        price: "3374 $",
+        price: "4432 $",
         // activity: ["Skateboarding", "Roller-skating"],
         activity: "Roller-skating",
         description: `<p>Occupying a former royal home situated among elegant 
