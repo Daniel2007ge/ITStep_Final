@@ -23,7 +23,8 @@ var Hotels_And_Restourants = [
                     <p>Breakfast is available. There's also a refined restaurant with a sea-view 
                     terrace, as well as a cozy bar. Other amenities include an outdoor pool and 
                     landscaped gardens, plus a gym and a spa. There is also <strong>diving activity.
-                    </strong> Kids age 16 and older are welcome.</p>`
+                    </strong> Kids age 16 and older are welcome.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.4149149252135!2d14.574462875266045!3d40.62073084319925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b942532a597cf%3A0x979ee9503661ffc9!2sMonastero%20Santa%20Rosa%20Hotel%20%26%20Spa!5e0!3m2!1ska!2sge!4v1685187667687!5m2!1ska!2sge"
     },
 
     {
@@ -49,7 +50,8 @@ var Hotels_And_Restourants = [
                     <p>Breakfast is served in an elegant restaurant which has a terrace; there's 
                     also a casual trattoria, a posh bar, a beachfront bistro and a poolside 
                     pizzeria. There is <strong>rafting activity</strong> 3 pools, a 
-                    private beach and a marina, plus a spa, a fitness room and a tennis court.</p>`
+                    private beach and a marina, plus a spa, a fitness room and a tennis court.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5544.631714954015!2d9.223210055095498!3d45.984922398545905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478422cc02aefbef%3A0xdf6f075b79ed8c54!2sGrand%20Hotel%20Tremezzo!5e0!3m2!1ska!2sge!4v1685189235829!5m2!1ska!2sge"
     },
 
     {
@@ -73,7 +75,8 @@ var Hotels_And_Restourants = [
                     <p>Amenities include 2 upscale restaurants and a bar with lake views; private 
                     outdoor lakeside dining is available. There's also a gym, a spa and an outdoor 
                     pool, plus a business centre, meeting rooms and <strong>wingsuit surfing activity</strong> 
-                    event.</p>`
+                    event.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.3420902660323!2d73.66986627454496!3d24.577387556527665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396ccf804ea9e2f3%3A0x21eb806bf9fc7e9a!2sThe%20Oberoi%20Udaivilas%2C%20Udaipur!5e0!3m2!1ska!2sge!4v1685189294528!5m2!1ska!2sge"
     },
 
     {
@@ -99,7 +102,8 @@ var Hotels_And_Restourants = [
                     <p>Local transfers in a Mercedes shuttle are complimentary. Other amenities 
                     include a terrace with fire pits, plus a private cinema, a 24-hour gym and 
                     direct access to Spago, an acclaimed restaurant. <strong>Mountain biking activity</strong> 
-                    is available.</p>`
+                    is available.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.0648615737427!2d-118.39954742507068!3d34.06785151690738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbfef00f57a3%3A0xaa20740290ea3602!2sAKA%20Beverly%20Hills!5e0!3m2!1ska!2sge!4v1685189387351!5m2!1ska!2sge"
     },
 
     {
@@ -124,7 +128,8 @@ var Hotels_And_Restourants = [
                     all-day snacks and afternoon appetizers.</p>
                     <p>There's a complimentary 24-hour airport shuttle. Other amenities include a 
                     funky bistro-style restaurant, a bar, a Starbucks coffee shop, an outdoor pool 
-                    and an <strong>ice climbing activity</strong>.</p>`
+                    and an <strong>ice climbing activity</strong>.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10485549.827567061!2d-132.10745518362472!3d50.087247549847184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54860accf4ff91a5%3A0x490b7f4e91d53016!2sSheraton%20Vancouver%20Airport%20Hotel!5e0!3m2!1ska!2sge!4v1685189475949!5m2!1ska!2sge"
     },
 
     {
@@ -148,7 +153,8 @@ var Hotels_And_Restourants = [
                     while upgraded rooms and suites add access to a lounge with complimentary breakfast, 
                     plus whirlpool tubs and <strong>snowmobile racing activity.</strong></p>
                     <p>Amenities include a sophisticated restaurant and bar, an indoor pool, a 
-                    fitness center with a spa, as well as a business center and meeting rooms.</p>`
+                    fitness center with a spa, as well as a business center and meeting rooms.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.2956498126027!2d-123.17854132421355!3d49.194950776963616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548674ccb7189d71%3A0xbf7039d71797c1e0!2sFairmont%20Vancouver%20Airport!5e0!3m2!1ska!2sge!4v1685189545545!5m2!1ska!2sge"
     },
 
     {
@@ -174,7 +180,8 @@ var Hotels_And_Restourants = [
                     private garden and immaculate design. The interiors are modern but 
                     loosely inspired by the style of the old Chinese mansion. There are 
                     <strong>sailing activity</strong>. If you really want to spoil 
-                    yourself, we have swimming pool.</p>`
+                    yourself, we have swimming pool.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3415.7948467319757!2d121.0450780747962!3d31.11543356703802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b2f9b232578281%3A0x354e4a71e7977195!2sAhnluh%20Zhujiajiao!5e0!3m2!1ska!2sge!4v1685189607362!5m2!1ska!2sge"
     },
 
     {
@@ -200,7 +207,8 @@ var Hotels_And_Restourants = [
                     views, and upgraded rooms add balconies or terraces.</p>
                     <p>There are <strong>roller-skating activity,</strong> 3 posh dining 
                     options, including an acclaimed restaurant, as well as a chic bar. 
-                    There's also a spa with an indoor pool and a gym.</p>`
+                    There's also a spa with an indoor pool and a gym.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.699964267777!2d2.2908277757647473!3d48.86393150031744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe438ddba07%3A0x11dbb8d180ab18a0!2sShangri-La%20Paris!5e0!3m2!1ska!2sge!4v1685189646388!5m2!1ska!2sge"
     },
 
     {
@@ -222,7 +230,8 @@ var Hotels_And_Restourants = [
                     grandeur, transporting you to an era of extravagance and opulence.</p>
                     <p>The menu at this restaurant is an exquisite selection of French 
                     delicacies, crafted to perfection by renowned chefs with years of culinary 
-                    expertise. From the succulent meat dishes to the light.</p>`
+                    expertise. From the succulent meat dishes to the light.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.578680969956!2d2.301670575764921!3d48.8662440001547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fca87aedf91%3A0xa6df537792efd47b!2zSMO0dGVsIFBsYXphIEF0aMOpbsOpZQ!5e0!3m2!1ska!2sge!4v1685189794534!5m2!1ska!2sge"
     },
 
     {
@@ -244,7 +253,8 @@ var Hotels_And_Restourants = [
                     includes classics such as carbonara, spaghetti alle vongole, and pizza margherita. 
                     Each dish is made with the freshest ingredients, hand-selected from local markets. 
                     The wine list, too, is a tribute to Italy's rich culinary heritage, with an extensive 
-                    selection of regional and national wines.</p>`
+                    selection of regional and national wines.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.5721136268558!2d12.482166375337004!3d41.8805516652617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61cd25edcc3d%3A0xf4fd97802dedac05!2sMarco%20Martini%20Roma!5e0!3m2!1ska!2sge!4v1685189870870!5m2!1ska!2sge"
     },
 
     {
@@ -266,7 +276,8 @@ var Hotels_And_Restourants = [
                     <p>Narisawa's exceptional service and traditional Japanese ambiance make it a 
                     must-visit restaurant in Tokyo. From its mouth-watering seafood to its cozy and 
                     comfortable setting, Narisawa is undoubtedly one of the best restaurants in the 
-                    city and a must-try for anyone visiting Tokyo.</p>`
+                    city and a must-try for anyone visiting Tokyo.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.218300564772!2d139.71954117500653!3d35.671626430502826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c833415b0ad%3A0x78be2a9702e4db5c!2sNarisawa!5e0!3m2!1ska!2sge!4v1685189950520!5m2!1ska!2sge"
     },
 
     {
@@ -288,7 +299,8 @@ var Hotels_And_Restourants = [
                     <p>But dining at this restaurant isn't just about the food – it's a full sensory 
                     experience that engages all the senses. From the artfully constructed cocktails to the 
                     impeccable service and stunning views, every detail has been meticulously crafted to 
-                    create a one-of-a-kind dining adventure.</p>`
+                    create a one-of-a-kind dining adventure.</p>`,
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.269917096244!2d-73.99669992472658!3d40.756087734916555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2594f6db7295d%3A0x54166e2a9ffa1529!2sThe%20Restaurant!5e0!3m2!1ska!2sge!4v1685190024758!5m2!1ska!2sge"
     },
 ]
 
