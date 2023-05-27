@@ -4,17 +4,6 @@ body{
     font-family: "Malgun Gothic";
 }
 
-
-
-
-
-
-
-
-
-
-
-
 nav{
     width: 90vw;
     display: flex;
@@ -49,16 +38,6 @@ a:hover{
 #slide, #slide>a{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
 
 #star{
     width: 250px;
@@ -137,6 +116,7 @@ section{
     justify-content: center;
     display: none;
 }
+
 /* .section{
     width: 300px;
     margin: auto;
@@ -189,23 +169,6 @@ section{
         margin: 0px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     nav>a{
         display: none;
     }
@@ -230,16 +193,14 @@ section{
         width: 100%;
         padding: 16px 0px;
         margin: 0px;
+    }   
+}
+
+@media screen and (max-width: 830px){
+    section, #new{
+        width: 75vw;
+        height: auto;
     }
-
-
-
-
-
-
-
-
-    
 }
 
 @media screen and (max-width: 624px){
@@ -262,5 +223,9 @@ section{
 @media screen and (max-width: 394px){
     #container{
         padding-top: 340px;
+    }
+
+    section, #new{
+        display: none;
     }
 }
