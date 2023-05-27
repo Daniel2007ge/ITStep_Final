@@ -229,3 +229,19 @@ section{
         display: none;
     }
 }
+
+@media screen and (max-width: 293px){
+    #footer>button{
+        height: 40px;
+        width: 120px;
+    }
+
+    #footer>b, #footer>span{
+        margin: 0px;
+    }
+
+    #info>p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

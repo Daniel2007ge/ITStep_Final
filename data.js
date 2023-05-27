@@ -67,10 +67,9 @@ var Hotels_And_Restourants = [
         activity: "Wingsuit surfing",
         description: `<p>Set amid gardens and overlooking Lake Pichola, this luxury hotel is 
                     2 km from both Jagdish Temple and the City Palace Museum.</p>
-                    <p>Bright, elegant rooms and suites feature flat-screen TVs, free Wi-Fi, 
-                    DVD players and sitting areas, plus minibars and iPod docks. Suites add 
-                    dining rooms, living rooms and coffeemakers, as well as private pools and 
-                    furnished courtyards with lake views. A 24-hour butler service is available.</p>
+                    <p>In rooms are TVs, free Wi-Fi, DVD players and sitting areas, plus minibars and iPod docks. 
+                    Suites add dining rooms, living rooms and coffeemakers, as well as private pools and 
+                    furnished courtyards with lake views.</p>
                     <p>Amenities include 2 upscale restaurants and a bar with lake views; private 
                     outdoor lakeside dining is available. There's also a gym, a spa and an outdoor 
                     pool, plus a business centre, meeting rooms and <strong>wingsuit surfing activity</strong> 
@@ -96,8 +95,7 @@ var Hotels_And_Restourants = [
                     from Santa Monica Airport.</p>
                     <p>Refined 1- and 2-bedroom suites feature kitchens, dining areas and 
                     balconies, as well as flat-screen TVs and free Wi-Fi. Upscale suites add 
-                    living rooms with fireplaces, and townhouses have private entrances. Room 
-                    service is available.</p>
+                    living rooms with fireplaces, and townhouses have private entrances.</p>
                     <p>Local transfers in a Mercedes shuttle are complimentary. Other amenities 
                     include a terrace with fire pits, plus a private cinema, a 24-hour gym and 
                     direct access to Spago, an acclaimed restaurant. <strong>Mountain biking activity</strong> 
@@ -167,17 +165,16 @@ var Hotels_And_Restourants = [
         // activity: ["Sailing", "Skateboarding", "Roller-skating"],
         activity: "Sailing",
         description: `<p>It’s impossible to look at Ahn Luh Zhujiajiao and not be 
-                    impressed. Housed partially in a 600-year-old courthouse from 
+                    impressed. Housed in a 600-year-old courthouse from 
                     the Ming Dynasty, this hotel looks like the film set for Raise 
                     the Red Lantern. The historic building, which had been beautifully 
                     restored, now serves as the hotel lobby and will transport you to 
                     another era the moment you arrive.</p>
-                    <p>This hotel is certainly not a budget option. It consists of 35 new 
-                    luxurious villas, each with its own private garden and immaculate 
-                    design. The interiors are modern but loosely inspired by the style of 
-                    the old Chinese mansion. There are <strong>sailing activity</strong>; however, if 
-                    you really want to spoil yourself, the Pool Pavilion features a heated 
-                    outdoor swimming pool.</p>`
+                    <p>Hotel consists of 35 villas, each with its own 
+                    private garden and immaculate design. The interiors are modern but 
+                    loosely inspired by the style of the old Chinese mansion. There are 
+                    <strong>sailing activity</strong>. If you really want to spoil 
+                    yourself, we have swimming pool.</p>`
     },
 
     {
@@ -200,8 +197,7 @@ var Hotels_And_Restourants = [
                     <p>Featuring marble bathrooms with heated floors, the plush 
                     rooms offer free Wi-Fi and flat-screen TVs, plus minibars, and 
                     tea and coffeemakers. Some have Eiffel Tower and/or river 
-                    views, and upgraded rooms add balconies or terraces. Lavish 
-                    suites come with living rooms; some provide dining rooms.</p>
+                    views, and upgraded rooms add balconies or terraces.</p>
                     <p>There are <strong>roller-skating activity,</strong> 3 posh dining 
                     options, including an acclaimed restaurant, as well as a chic bar. 
                     There's also a spa with an indoor pool and a gym.</p>`
@@ -288,8 +284,7 @@ var Hotels_And_Restourants = [
                     carefully curated dishes that showcase the best of New York's diverse gastronomic 
                     landscape. From elevated takes on classic comfort foods like mac and cheese to exotic 
                     global flavors like Thai curries and French foie gras, there's something here to suit 
-                    every palate. And with a rotating selection of seasonal specials, there's always 
-                    something new and exciting to discover.</p>
+                    every palate.</p>
                     <p>But dining at this restaurant isn't just about the food – it's a full sensory 
                     experience that engages all the senses. From the artfully constructed cocktails to the 
                     impeccable service and stunning views, every detail has been meticulously crafted to 
