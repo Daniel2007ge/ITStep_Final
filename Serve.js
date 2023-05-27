@@ -15,6 +15,7 @@ function Input(element) {
 }
 
 function serv() {
+    document.getElementsByTagName("html")[0].scrollTop = 0
     document.getElementById("parent").style.display = "flex"
     document.getElementById("dark").style = "height: 100%"
 

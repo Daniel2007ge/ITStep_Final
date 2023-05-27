@@ -72,10 +72,17 @@ button{
     border-radius: 50px;
     font-size: 22px;
     float: left;
+    transition: all 0.5s ease;
 }
 
 #footer{
     display: flex;
+}
+
+#footer>button:hover{
+    background-color: #7B61FF;
+    color: white;
+    transition: all 0.5s ease;
 }
 
 b{
