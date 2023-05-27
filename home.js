@@ -7,7 +7,7 @@ function filter() {
     window.close("UserPage.html")
 }
 
-function funcOpen1(e){
+function funcOpen(e){
     if (e == 0) {
         localStorage.setItem("type", "hotel")
     } else {
