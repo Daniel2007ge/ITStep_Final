@@ -12,10 +12,6 @@ function funcOpen(e){
     window.close("UserPage.html")
 }
 
-
-
-
-
 let x = localStorage.getItem("num1")
 let card = Hotels_And_Restourants
 
@@ -35,9 +31,11 @@ div.prepend(h1)
 let footer = document.createElement("div")
 footer.setAttribute("id", "footer")
 let button = document.createElement("button")
+button.setAttribute("onclick", "serve()")
 button.innerText = "Serve"
 footer.append(button)
-if(localStorage.length <= 4){
+if(localStorage.getItem("user") == null){
+    button.setAttribute("disabled", "true")
     button.style.opacity = 0.5
     button.setAttribute("title", "You need to create an account for to serve")
 }
@@ -84,8 +82,6 @@ function func1(e) {
     // document.getElementsByTagName("button")[3].setAttribute("onclick", "Next("+e2+")")
 }
 
-
-
 function ShowHide() {
     for (let index = 0; index < 7; index++) {
         document.getElementsByClassName("slide_a")[index].style.display = "block"
@@ -93,7 +89,9 @@ function ShowHide() {
     $("#slide").slideToggle(500)
 }
 
-
+function serve() {
+    window.open("Serve.html")
+}
 
 
 
