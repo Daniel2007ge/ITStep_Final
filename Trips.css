@@ -68,6 +68,9 @@ button>a{
     text-decoration: none;
     color: white;
     font-size: 17px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav{
@@ -82,12 +85,13 @@ nav{
 
 nav>button{
     display: none;
-    margin-bottom: -30px;
-    margin-top: 17px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    color: white;
 }
 
 a{
-    width: 8.3%;
+    width: 100px;
     padding: 10px 0px;
     margin: 0px 30px;
     text-align: center;
@@ -107,32 +111,13 @@ nav>a:hover{
     display: none;
 }
 
-
-@media screen and (max-width: 1075px){
-    nav>a{
-        margin: 0px 5px;
-    }
-}
-
-@media screen and (max-width:1035px){
+@media screen and (max-width: 1035px){
     section{
         display: grid;
     }
 }
 
-@media screen and (max-width: 950px){
-    nav>a{
-        display: block;
-    }
-}
-
-@media screen and (max-width: 775px){
-    nav>a{
-        margin: 0px 0px;
-    }
-}
-
-@media screen and (max-width: 713px){
+@media screen and (max-width: 830px){
     nav>a{
         display: none;
     }
@@ -145,7 +130,7 @@ nav>a:hover{
         width: 100%;
         height: 377px;
         background-color: rgba(0, 0, 0, 0.8);
-        margin-top: 70px;
+        margin-top: 60px;
         justify-items: center;
         position: absolute;
     }

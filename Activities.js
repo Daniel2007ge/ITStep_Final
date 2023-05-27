@@ -26,6 +26,8 @@ function func1(index) {
     localStorage.setItem("place", "")
     localStorage.setItem("active", document.getElementsByTagName("figcaption")[index].innerHTML)
     window.open("Hotels.html")
+    window.close("home.html")
+    window.close("UserPage.html")
 }
 
 function funcOpen(e){
