@@ -41,3 +41,7 @@ function ShowHide() {
     }
     $("#slide").slideToggle(500)
 }
+
+// function Destinations() {
+//     document.getElementsByTagName("html")[0].scrollTop = 750
+// }
