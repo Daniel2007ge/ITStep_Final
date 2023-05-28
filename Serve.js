@@ -41,4 +41,11 @@ function Yes() {
         document.getElementById("parent").style.display = "none"
         document.getElementById("dark").style = "height: 0px"
     }, "1000")
+    let servedHotel = {
+        Name: card.name,
+        Visiting: document.getElementsByTagName("input")[0].value,
+        CheckingOut: document.getElementsByTagName("input")[1].value,
+        Guests: document.getElementsByTagName("input")[1].value,
+    }
+    localStorage.setItem("served", JSON.stringify(servedHotel))
 }

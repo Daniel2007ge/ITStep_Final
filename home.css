@@ -84,8 +84,13 @@ nav>a:hover{
     color: white;
     line-height: 55px;
     margin-top: 5px;
-    box-shadow: 0 0 15px white inset;
     overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+#User:hover{
+    box-shadow: 0 0 15px white inset;
+    transition: all 0.5s ease;
 }
 
 #btn_nav{
