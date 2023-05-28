@@ -16,17 +16,27 @@ function Input(element) {
 
 function serv() {
     document.getElementsByTagName("html")[0].scrollTop = 0
-    document.getElementById("parent").style.display = "flex"
-    document.getElementById("dark").style = "height: 100%"
+    document.getElementsByTagName("img")[0].style.display = "none"
 
     document.getElementById("name").innerText = card.name    
     document.getElementById("time1").innerText = ""
     document.getElementById("time1").append("at: " + document.getElementsByTagName("input")[0].value)
     document.getElementById("time2").innerText = ""
     document.getElementById("time2").append("for: " + document.getElementById("range").value + " guests")
+
+    document.getElementById("dark").style = "height: 100%"
+    setTimeout(() => {
+        document.getElementById("parent").style.display = "flex"
+    }, "1000")
 }
 
 function No() {
+    document.getElementById("parent").style.display = "none"
+    document.getElementById("dark").style = "height: 0px"
+}
+
+function Yes() {
+    document.getElementsByTagName("img")[0].style.display = "block"
     document.getElementById("parent").style.display = "none"
     document.getElementById("dark").style = "height: 0px"
 }
