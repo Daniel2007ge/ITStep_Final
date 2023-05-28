@@ -1,0 +1,43 @@
+body{
+    font-family: "Malgun Gothic";
+}
+
+#profile{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #7B61FF;
+    border-radius: 100%;
+    font-size: 50px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 135px;
+    color: #7B61FF;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+figure{
+    height: 377px;
+    width: 628px;
+    border: none;
+    border-radius: 10px;
+}
+
+img{
+    height: 377px;
+    width: 314px;
+    border: none;
+    border-radius: 10px;
+    float: left;
+}
+
+figure>div{
+    height: 377px;
+    float: left;
+    text-align: center;
+}
+
+figcaption{
+    font-size: 22px;
+    font-weight: 600;
+}

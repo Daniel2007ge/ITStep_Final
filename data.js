@@ -322,7 +322,7 @@ var Trips = [
         date: "Today",
         account: "James Calzoni",
         comments: 17,
-        link: ""
+        link: "https://earth.google.com/earth/d/1Fu-aieJomxPUbNprPExZ_LiT_Tmc24jT?usp=sharing"
     },
 
     {

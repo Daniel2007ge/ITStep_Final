@@ -5,9 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="Profile.css">
     <title>2rism</title>
 </head>
 <body>
-    
+    <div id="profile"></div>
+    <figure>
+        <img src="" alt="">
+        <div>
+            <figcaption></figcaption><br>
+            <button>delete</button>
+        </div>
+    </figure>
+    <script>
+        let obj1 = JSON.parse(localStorage.getItem("user"))
+        document.getElementsByTagName("div")[0].innerText = obj1.firstName
+
+        let obj2 = JSON.parse(localStorage.getItem("served"))
+        document.getElementsByTagName("img")[0].setAttribute("src", obj2.Img)
+        document.getElementsByTagName("figcaption")[0].innerText = obj2.Name
+    </script>
 </body>
 </html>

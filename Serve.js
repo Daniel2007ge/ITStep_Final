@@ -43,6 +43,7 @@ function Yes() {
     }, "1000")
     let servedHotel = {
         Name: card.name,
+        Img: card.img,
         Visiting: document.getElementsByTagName("input")[0].value,
         CheckingOut: document.getElementsByTagName("input")[1].value,
         Guests: document.getElementsByTagName("input")[1].value,
