@@ -37,6 +37,8 @@ function No() {
 
 function Yes() {
     document.getElementsByTagName("img")[0].style.display = "block"
-    document.getElementById("parent").style.display = "none"
-    document.getElementById("dark").style = "height: 0px"
+    setTimeout(() => {
+        document.getElementById("parent").style.display = "none"
+        document.getElementById("dark").style = "height: 0px"
+    }, "1000")
 }
