@@ -124,6 +124,20 @@ section{
     display: none;
 }
 
+html::-webkit-scrollbar{
+    width: 10px;
+}
+  
+html::-webkit-scrollbar-track{
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    border-radius: 10px;
+}
+  
+html::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: linear-gradient(180deg, #1606f0, #00c6fb);
+}
+
 /* .section{
     width: 300px;
     margin: auto;

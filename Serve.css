@@ -190,6 +190,10 @@ button{
         width: 200px;
     }
 
+    img{
+        margin-left: 170px;
+    }
+
     #serving>button{
         margin-top: 0px;
     }
