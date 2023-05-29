@@ -15,6 +15,11 @@ document.getElementsByTagName("input")[1].value = obj1.lastName
 document.getElementsByTagName("input")[2].value = obj1.email
 document.getElementsByTagName("input")[3].value = obj1.password
 
+if (localStorage.getItem("user") != null) {
+    document.getElementsByClassName("home_tag_a")[0].setAttribute("href", "UserPage.html")
+    document.getElementsByClassName("slide_a")[0].setAttribute("href", "UserPage.html")
+}
+
 function funcOpen(e){
     if (e == 0) {
         localStorage.setItem("type", "hotel")
@@ -34,4 +39,10 @@ function ShowHide() {
         document.getElementsByClassName("slide_a")[index].style.display = "block"
     }
     $("#slide").slideToggle(500)
+}
+
+function Delete() {
+    localStorage.removeItem("served")
+    window.close("Profile.html")    
+    window.open("Serve.html")
 }

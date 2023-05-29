@@ -10,6 +10,30 @@ if(card.role == "restaurant"){
     document.getElementsByTagName("input")[1].style.display = "none"
 }
 
+if (localStorage.getItem("user") != null) {
+    document.getElementsByClassName("home_tag_a")[0].setAttribute("href", "UserPage.html")
+    document.getElementsByClassName("slide_a")[0].setAttribute("href", "UserPage.html")
+}
+
+function funcOpen(e){
+    if (e == 0) {
+        localStorage.setItem("type", "hotel")
+    } else {
+        localStorage.setItem("type", "restaurant")
+    }
+    localStorage.setItem("place", "")
+    localStorage.setItem("active", "")
+    window.open("Hotels.html")
+    window.close("Serve.html")
+}
+
+function ShowHide() {
+    for (let index = 0; index < 7; index++) {
+        document.getElementsByClassName("slide_a")[index].style.display = "block"
+    }
+    $("#slide").slideToggle(500)
+}
+
 function Input(element) {
     document.getElementsByTagName("span")[0].innerText = element.value
 }
