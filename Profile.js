@@ -1,5 +1,10 @@
 let obj1 = JSON.parse(localStorage.getItem("user"))
 
+document.getElementsByTagName("input")[0].value = obj1.firstName
+document.getElementsByTagName("input")[1].value = obj1.lastName
+document.getElementsByTagName("input")[2].value = obj1.email
+document.getElementsByTagName("input")[3].value = obj1.password
+
 if(localStorage.getItem("served") == null){
     document.getElementsByTagName("figure")[0].style.display = "none"
     let h1 = document.createElement("h1")
@@ -14,11 +19,6 @@ if(localStorage.getItem("served") == null){
     document.getElementsByTagName("p")[2].innerHTML = "<span>guests count: </span>" + obj2.Guests
     document.getElementsByTagName("p")[3].innerHTML = "<span>date of visit: </span>" + obj2.Visiting
     document.getElementsByTagName("p")[4].innerHTML = "<span>date of check out: </span>" + obj2.CheckingOut
-
-    document.getElementsByTagName("input")[0].value = obj1.firstName
-    document.getElementsByTagName("input")[1].value = obj1.lastName
-    document.getElementsByTagName("input")[2].value = obj1.email
-    document.getElementsByTagName("input")[3].value = obj1.password
 }
 
 if (localStorage.getItem("user") != null) {
