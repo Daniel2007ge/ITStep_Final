@@ -75,6 +75,11 @@ label{
     font-size: 15px;
 }
 
+section>h1{
+    font-size: 32px;
+    color: #7B61FF;
+}
+
 figure{
     height: 377px;
     width: 625px;
