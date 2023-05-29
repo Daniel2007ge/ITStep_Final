@@ -71,6 +71,11 @@ input{
     margin-bottom: 15px;
 }
 
+input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 label{
     width: 400px;
     text-align: left;
