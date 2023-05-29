@@ -4,26 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="Profile.css">
     <title>2rism</title>
 </head>
 <body>
-    <div id="profile"></div>
-    <figure>
-        <img src="" alt="">
-        <div>
-            <figcaption></figcaption><br>
-            <button>delete</button>
-        </div>
-    </figure>
-    <script>
-        let obj1 = JSON.parse(localStorage.getItem("user"))
-        document.getElementsByTagName("div")[0].innerText = obj1.firstName
-
-        let obj2 = JSON.parse(localStorage.getItem("served"))
-        document.getElementsByTagName("img")[0].setAttribute("src", obj2.Img)
-        document.getElementsByTagName("figcaption")[0].innerText = obj2.Name
-    </script>
+    <div id="slide">
+        <a href="home.html" class="slide_a">Home</a>
+        <a href="" onclick="funcOpen(0)" class="slide_a">Hotels</a>
+        <a href="" onclick="funcOpen(1)" class="slide_a">Restaurants</a>
+        <a href="Trips.html" class="slide_a">Tours</a>
+        <a href="" class="slide_a">Destinations</a>
+        <a href="Activities.html" class="slide_a">Activities</a>
+        <a href="" class="slide_a">Contact</a>
+    </div>
+    <nav>
+        <button onclick="ShowHide()">Navigate</button>
+        <a href="home.html" class="home_tag_a">Home</a>
+        <a href="" onclick="funcOpen(0)">Hotels</a>
+        <a href="" onclick="funcOpen(1)">Restaurants</a>
+        <a href="Trips.html">Tours</a>
+        <a href="">Destinations</a>
+        <a href="Activities.html">Activities</a>
+        <a href="">Contact</a>
+        <div id="User"></div>
+    </nav>
+    <h1>Your information:</h1>
+    <section>
+        <label>Name</label>
+        <input type="text">
+        <label>Surname</label>
+        <input type="text">
+        <label>Email</label>
+        <input type="email">
+        <label>Password</label>
+        <input type="text">
+    </section>
+    
+    <h1>Served hotels and restaurants:</h1>
+    <section>
+        <figure>
+            <img src="" alt="">
+            <div>
+                <figcaption></figcaption><br>
+                <img src="" alt="" style="height: 35px; width: 190px;" class="star">
+                <p></p><br>
+                <p></p><br>
+                <p></p><br>
+                <p></p><br>
+                <p></p><br>
+                <button>delete</button>
+            </div>
+        </figure>
+    </section>
+    <script src="Profile.js"></script>
 </body>
 </html>

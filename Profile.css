@@ -2,28 +2,90 @@ body{
     font-family: "Malgun Gothic";
 }
 
-#profile{
-    width: 150px;
-    height: 150px;
+nav{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav>button{
+    display: none;
+}
+
+#User{
     border: 1px solid #7B61FF;
     border-radius: 100%;
-    font-size: 50px;
-    overflow: hidden;
-    text-align: center;
-    line-height: 135px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
     color: #7B61FF;
-    margin-top: 20px;
-    margin-left: 20px;
+    line-height: 45px;
+    margin-top: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+a{
+    width: 8.3%;
+    height: 25px;
+    padding: 10px 0px;
+    margin: 0px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    color: #7B61FF;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    border: 1px solid #7B61FF;
+    transition: all 0.5s ease;
+}
+
+#slide, #slide>a{
+    display: none;
+}
+
+h1{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+section{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    border: 1px solid #7B61FF;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+label{
+    width: 400px;
+    text-align: left;
+    color: #7B61FF;
+    font-size: 15px;
 }
 
 figure{
     height: 377px;
-    width: 628px;
+    width: 625px;
     border: none;
     border-radius: 10px;
 }
 
-img{
+figure>img{
     height: 377px;
     width: 314px;
     border: none;
@@ -33,11 +95,81 @@ img{
 
 figure>div{
     height: 377px;
-    float: left;
+    float: right;
     text-align: center;
 }
 
 figcaption{
     font-size: 22px;
     font-weight: 600;
+}
+
+p{
+    margin: 0px;
+    text-align: right;
+    color: #7B61FF;
+    font-weight: 600;
+}
+
+p>span{
+    float: left;
+    color: black;
+}
+
+div>button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, #a103fc, #fc1403);
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track{
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    border-radius: 10px;
+}
+  
+html::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: linear-gradient(180deg, #1606f0, #00c6fb);
+}
+
+@media screen and (max-width: 1300px){
+    nav>a{
+        margin: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    nav>a{
+        display: none;
+    }
+
+    nav>button{
+        display: block;
+    }
+
+    #slide{
+        width: 100%;
+        height: 377px;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-top: 146px;
+        justify-items: center;
+        position: absolute;
+    }
+    
+    #slide>a{
+        color: white;
+        text-align: center;
+        border: none;
+        width: 100%;
+        padding: 16px 0px;
+        margin: 0px;
+    }   
 }

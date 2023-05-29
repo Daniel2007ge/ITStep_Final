@@ -43,10 +43,12 @@ function Yes() {
     }, "1000")
     let servedHotel = {
         Name: card.name,
+        Stars: card.stars,
+        Location: card.location,
         Img: card.img,
         Visiting: document.getElementsByTagName("input")[0].value,
         CheckingOut: document.getElementsByTagName("input")[1].value,
-        Guests: document.getElementsByTagName("input")[1].value,
+        Guests: document.getElementsByTagName("input")[2].value,
     }
     localStorage.setItem("served", JSON.stringify(servedHotel))
 }
