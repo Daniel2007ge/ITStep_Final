@@ -1,5 +1,4 @@
 let obj1 = JSON.parse(localStorage.getItem("user"))
-document.getElementById("User").innerText = obj1.firstName
 
 let obj2 = JSON.parse(localStorage.getItem("served"))
 document.getElementsByTagName("img")[0].setAttribute("src", obj2.Img)
