@@ -20,7 +20,6 @@ var Hotels_And_Restourants = [
         rooms: 4,
         roomPhoto: "images/hotels and restaurants/rooms/hotel1/",
         price: "2875 $",
-        // activity: ["Sailing", "Diving", "Surfing"],
         activity: "Surfing",
         description: `<p>Set in a restored 17th-century monastery, this elegant clifftop hotel 
                     overlooking the sea is 1 km from the beach and 8 km from the gardens of Villa 
@@ -46,7 +45,6 @@ var Hotels_And_Restourants = [
         rooms: 6,
         roomPhoto: "images/hotels and restaurants/rooms/hotel2/",
         price: "1517 $",
-        // activity: ["Rafting", "Hiking", "Mountain biking"],
         activity: "Snowboarding",
         description: `<p>Overlooking Lake Como, this palatial art nouveau hotel is 250 m from 
                     the Villa Carlotta museum and botanic garden.</p>
@@ -71,8 +69,7 @@ var Hotels_And_Restourants = [
         role: "hotel",
         rooms: 3,
         roomPhoto: "images/hotels and restaurants/rooms/hotel3/",
-        price: "405 $",
-        // activity: ["Roller-skating", "Skateboarding", "Wingsuit surfing"],        
+        price: "405 $",       
         activity: "Skiing",
         description: `<p>Set amid gardens and overlooking Lake Pichola, this luxury hotel is 
                     2 km from both Jagdish Temple and the City Palace Museum.</p>
@@ -97,7 +94,6 @@ var Hotels_And_Restourants = [
         rooms: 5,
         roomPhoto: "images/hotels and restaurants/rooms/hotel4/",
         price: "650 $",
-        // activity: ["Roller-skating", "Climbing", "Mountain biking"],
         activity: "Hiking",
         description: `<p>This upscale, extended-stay hotel in the prestigious Golden Triangle 
                     area is 8 minutes on foot from the glitzy shops on Rodeo Drive and 6 miles 
@@ -123,9 +119,7 @@ var Hotels_And_Restourants = [
         rooms: 4,            
         roomPhoto: "images/hotels and restaurants/rooms/hotel5/",
         price: "303 $",
-        // activity: ["Skiing", "Snowboarding", "Ice climbing", "Snowmobile Racing"],
         activity: "Climbing",
-        //Paragliding, Bungee jumping, Roller-skating, Skateboarding
         description: `<p>Set 5.8 km from Vancouver International Airport, this unfussy business 
                     hotel is also 14.1 km from Vancouver Art Gallery.</p>
                     <p>Understated rooms have free WiFi, 37-inch flat-screen TVs and balconies, 
@@ -149,7 +143,6 @@ var Hotels_And_Restourants = [
         rooms: 5,
         roomPhoto: "images/hotels and restaurants/rooms/hotel6/",
         price: "283 $",
-        // activity: ["Skiing", "Snowboarding", "Ice climbing", "Snowmobile Racing"],
         activity: "Snowmobile Racing",
         description: `<p>Set within the Vancouver International Airport, this upscale hotel 
                     is 1 km from YVR-Airport Station train station and 9 km from VanDusen 
@@ -173,7 +166,6 @@ var Hotels_And_Restourants = [
         rooms: 4,
         roomPhoto: "images/hotels and restaurants/rooms/hotel7/",
         price: "820 $",
-        // activity: ["Sailing", "Skateboarding", "Roller-skating"],
         activity: "Sailing",
         description: `<p>It’s impossible to look at Ahn Luh Zhujiajiao and not be 
                     impressed. Housed in a 600-year-old courthouse from 
@@ -200,7 +192,6 @@ var Hotels_And_Restourants = [
         rooms: 7,
         roomPhoto: "images/hotels and restaurants/rooms/hotel8/",  
         price: "4432 $",
-        // activity: ["Skateboarding", "Roller-skating"],
         activity: "Roller-skating",
         description: `<p>Occupying a former royal home situated among elegant 
                     buildings, this ritzy hotel in the 16th arr. is a 2-minute walk from 
@@ -352,16 +343,8 @@ var Activities = [
     {title: "Climbing", img: "images/activities/2.png"},
     {title: "Skiing", img: "images/activities/3.png"},
     {title: "Hiking", img: "images/activities/4.png"},
-    // {title: "Skateboarding", img: "images/activities/5.png"},
     {title: "Snowboarding", img: "images/activities/6.png"},
     {title: "Roller-skating", img: "images/activities/7.png"},
-    // {title: "Mountain biking", img: "images/activities/8.png"},
-    // {title: "Wingsuit surfing", img: "images/activities/9.png"},
-    // {title: "Bungee jumping", img: "images/activities/10.png"},
-    // {title: "Ice climbing", img: "images/activities/11.png"},
-    // {title: "Diving", img: "images/activities/12.png"},
-    // {title: "Paragliding", img: "images/activities/13.png"},
-    // {title: "Rafting", img: "images/activities/14.png"},
     {title: "Surfing", img: "images/activities/15.png"},
     {title: "Snowmobile Racing", img: "images/activities/16.png"},
 ]
