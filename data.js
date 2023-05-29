@@ -1,5 +1,13 @@
 var Users = []
 
+var Workers = [
+    {name: "John", lastname: "Smith", role: "Tour Guide", email: "johnsmith@gmail.com", img: "images/workers/1.png"},
+    {name: "Sarah", lastname: "Johnson", role: "Booking Agent", email: "sarahjohnson@gmail.com", img: "images/workers/2.png"},
+    {name: "Ashley", lastname: "Garcia", role: "Customer Service Representative", email: "ashleygarcia@gmail.com", img: "images/workers/3.png"},
+    {name: "Michael", lastname: "Lee", role: "Marketing Coordinator", email: "michaellee@gmail.com", img: "images/workers/4.png"},
+    {name: "David", lastname: "Kim", role: "Operations Manager", email: "davidkim@gmail.com", img: "images/workers/5.png"}
+]
+
 var Hotels_And_Restourants = [
     {
         name: "Monastero Santa Rosa Hotel & Spa", 
