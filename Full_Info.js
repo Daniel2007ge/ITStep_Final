@@ -57,8 +57,6 @@ let div2 = document.getElementById("container")
 
 for (let index = 0; index < card[x].rooms; index++) {
     let img3 = document.createElement("img")
-    // document.getElementsByTagName("button")[2].style.display = "none"
-    // document.getElementsByTagName("button")[3].style.display = "none"
     img3.setAttribute("onclick", "func1("+index+")")
     img3.setAttribute("src", card[x].roomPhoto+(index+1)+".png")
     div2.append(img3)
@@ -74,12 +72,7 @@ function func1(e) {
     document.getElementsByTagName("section")[0].style.display = "flex"
     let newImg = document.getElementById("new")
     newImg.setAttribute("src", card[x].roomPhoto+e2+".png")
-    // document.getElementsByTagName("html")[0].scrollTop = 896
     document.getElementsByTagName("html")[0].scrollTop = 896
-    // document.getElementsByTagName("button")[2].style.display = "block"
-    // document.getElementsByTagName("button")[2].setAttribute("onclick", "Previous("+e2+")")
-    // document.getElementsByTagName("button")[3].style.display = "block"
-    // document.getElementsByTagName("button")[3].setAttribute("onclick", "Next("+e2+")")
 }
 
 function ShowHide() {
@@ -92,29 +85,3 @@ function ShowHide() {
 function serve() {
     window.open("Serve.html")
 }
-
-
-
-// function Previous(num) { 
-//     if (num == 0) {
-//         document.getElementsByTagName("button")[2].disabled = true
-//     }else {
-//         document.getElementsByTagName("button")[2].disabled = false
-//     }
-//     let num2 = num - 1
-//     document.getElementById("new").setAttribute("src", card[x].roomPhoto+num2+".png")
-//     document.getElementsByTagName("button")[2].setAttribute("onclick", "Previous("+num2+")")
-//     document.getElementsByTagName("button")[3].setAttribute("onclick", "Next("+num2+")")
-// }
-
-// function Next(num) {    
-//     if (num == card[x].rooms) {
-//         document.getElementsByTagName("button")[3].disabled = true
-//     }else {
-//         document.getElementsByTagName("button")[3].disabled = false
-//     }
-//     let num2 = num + 1
-//     document.getElementById("new").setAttribute("src", card[x].roomPhoto+num2+".png")
-//     document.getElementsByTagName("button")[2].setAttribute("onclick", "Previous("+num2+")")
-//     document.getElementsByTagName("button")[3].setAttribute("onclick", "Next("+num2+")")
-// }
